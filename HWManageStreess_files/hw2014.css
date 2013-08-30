@@ -221,7 +221,6 @@ header select option{
 	}
 
 .news-events, .partners {
-	
 	margin:2em 0 0 0;
 	}
 	
@@ -396,16 +395,60 @@ footer .nav-pills > li > a:hover {
 	color: #58585a !important;
 }
 
+@media (min-width: 768px) and (max-width: 979px) {
+
+}
 
 
-@media (max-width: 979px) {
+@media (max-width: 1200px) {
+.banner-text{
+	background: url(../HWManageStreess_files/images/bannerCopy.png) no-repeat scroll right top transparent;
+	padding: 10px 20px 0 100px;
+	max-height: 500px;
+	}
+
+.banner-text h2{
+	padding-top: 100px;
+	background-size: 50%;
+	}
+	
+#banner {
+    height: 430px;  
+}
+
 footer {
    background-size: contain;	
 }
 
+
 }
   
-  
+  @media (max-width: 979px) {
+.banner-text{
+	background: #fff;
+	padding: 10px 10px 0 10px;
+	width: 220px !important;
+	line-height: 160%;
+	height: 308px;
+	}
+
+.banner-text h2{
+	padding-top: 65px;
+	background-size: 35%;
+	margin-top: 0;
+	margin-bottom: 0px;
+	}
+	
+#banner {
+    height: 320px;  
+	
+}
+
+
+#banner .btn {
+    margin-top: 5px;
+}
+}
   
   
   
@@ -441,7 +484,7 @@ footer {
 }
 
 .banner-image{
-	height:150px;
+	height:190px;
 	
 	}
 
@@ -449,23 +492,23 @@ footer {
 	position: relative;
 	float: left;
 	display: block;
-	width: 100%;
+	width: 100% !important;
 	background: url(../HWManageStreess_files/images/bannerCopy.png) no-repeat scroll right top transparent;
 	height:auto;
 	padding: 0px 20px;
 	margin-top: 20px;
-	text-align: center;
+	text-align: left;
 	line-height: 180%;
 	right:0;
 	}
 
 .banner-text h2 {
     background: url("../HWManageStreess_files/images/toolkit.png") no-repeat scroll left top transparent;
-	background-size: 20%;
-	line-height: 350%;
+	background-size: 18%;
+	line-height: 400%;
     font-size: 1.2em;
     padding-top: 0px;
-	padding-left: 40px;
+	padding-left: 80px;
     text-transform: uppercase;
 }
 	
