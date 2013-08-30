@@ -1,0 +1,506 @@
+a {
+    color: #003298;
+    text-decoration: none;
+}
+
+
+
+footer {
+	background: url(../HWManageStreess_files/images/footer.png) no-repeat bottom center #ABC600;
+	/*background-size: contain;*/
+	border-top: 10px solid #DDE898;
+	min-height: 120px;
+	text-align: center;
+}
+
+/**********header************/
+
+.form-search{
+	float: right;
+	margin:0;
+	margin-left: 2em;
+	}
+	
+.form-search input[type="text"]{
+    border-radius: 15px;
+    color: #555555;
+    display: inline-block;
+    font-size: 14px;
+    height: 16px;
+    line-height: 16px;
+    margin-bottom: 0px;
+    padding: 4px 6px;
+    vertical-align: middle;
+	width: 170px;
+	background: url(../HWManageStreess_files/images/search.gif) no-repeat right 5px #fff;
+	
+}
+
+header select{
+	margin:0;
+	width: auto;
+	background: transparent;
+	border:0;
+	margin-right: 5px;
+	font-weight: bold;
+	font-size: 12px;
+	}
+	
+header select option{
+	padding-right: 5px;
+	
+	}
+	
+	
+.navbar-language {
+    background-color: #DFE0E0;
+	color: #575759;
+	text-align: right;
+    padding: 10px 0;
+	font-size: 11px;
+}
+
+
+#portal-logo{
+	position: absolute;
+	top:0;
+	
+}
+
+#osha-logo{
+	float: right;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	}
+	
+#tagline{
+	padding: 43px 0 10px 200px;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.tagline1{
+	font-size: 120%;
+	color: #003298;
+	font-weight: bold;
+	padding
+	}
+
+	
+	/**plone class**/
+.hiddenStructure {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    display: block;
+    height: 0.1em;
+    margin: -0.1em 0 0 -0.1em;
+    overflow: hidden;
+    padding: 0;
+    width: 1px;
+}
+
+#menu{
+	background: #ABC600;
+	text-transform: uppercase;
+	margin-top: 3px;
+	}
+
+	
+.navbar-inner {
+    background-color:  #ABC600;
+    background-image:none;
+    border: 0;
+    border-radius:0;
+    box-shadow: none;
+    min-height: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.navbar .nav > li > a {
+    color: #fff;
+    float: none;
+    padding: 0 15px;
+	margin: 10px 0px;
+    text-decoration: none;
+    text-shadow: none;
+	font-weight: bold;
+	border-right: 1px solid #fff;
+}
+
+.navbar .nav > li:last-child > a {
+	border-right: 0px solid #fff;
+}
+
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+    background-color: #ABC600;
+    box-shadow: none;
+    color: #555555;
+    text-decoration: none;
+}
+
+.dropdown-menu {
+    padding: 10px;
+	font-size: 90%;
+}
+
+.dropdown-menu li {
+    border-bottom: 1px solid #ABC600;
+}
+
+.dropdown-menu > li > a {
+    padding: 5px 20px;
+}
+
+.dropdown-menu li:last-child{
+    border-bottom: 0;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-submenu:hover > a,
+.dropdown-submenu:focus > a {
+  color: #ffffff;
+  text-decoration: none;
+  background-color:  #ABC600;
+  background-image:none;
+ 
+}
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus,
+.navbar .btn-navbar:hover,
+.navbar .btn-navbar:focus,
+.navbar .btn-navbar:active,
+.navbar .btn-navbar.active,
+.navbar .btn-navbar.disabled,
+.navbar .btn-navbar[disabled],
+.navbar .nav li.dropdown.open > .dropdown-toggle, 
+.navbar .nav li.dropdown.active > .dropdown-toggle, 
+.navbar .nav li.dropdown.open.active > .dropdown-toggle{
+ 
+  background-color: #ABC600;
+  *background-color: #ABC600;
+} 
+
+
+/*************BigBanner*********************/
+
+#banner{
+	height: 530px;
+	/*border-radius: 20px;
+	border: 1px solid #8D9B26;*/
+	position: relative;
+}
+
+
+#banner .btn{
+	margin-top: 1em;
+}
+
+.banner-image{
+	background: url(../HWManageStreess_files/images/banner.jpg) no-repeat top center;
+	background-size: 100%;
+	height: 530px;
+}
+
+.banner-text{
+	position: absolute;
+	right: 20px;
+	top: 1px;
+	background: url(../HWManageStreess_files/images/bannerCopy.png) no-repeat scroll right top transparent;
+	height: 496px;
+	padding: 10px 20px 0 170px;
+	text-align: center;
+	line-height: 180%;
+	}
+
+.banner-text h2{
+	padding-top: 150px;
+	background: url(../HWManageStreess_files/images/toolkit.png) no-repeat scroll center top transparent;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	}
+
+.news-events, .partners {
+	
+	margin:2em 0 0 0;
+	}
+	
+/*************News-Events*********************/
+
+.news-events h2, .partners h2{
+	border-radius: 30px 30px 0 0 ;
+	background: #ABC600;
+	color: #fff;
+	font-size: 1em;
+	text-transform: uppercase;
+	padding: 5px 20px;
+	margin:0;
+	}
+	
+.item {
+	background:#f2f7d8;
+	padding: 15px;
+	}
+	
+.first {
+	border-bottom: 1px solid #ABC600;
+	
+	}	
+.item h3{
+	font-size: 1.3em;
+	line-height: 140%;
+	margin: 0 0 20px 0;
+	}
+
+.item img{
+	
+	margin:0px 10px 15px 0;
+	}
+	
+.item .data{
+	margin:5px 0;
+	}
+	
+.databox {
+	background:#ABC600;
+	color: #fff;
+	margin: 5px 10px 15px 0;
+	width: 120px;
+	height: 125px;
+	padding: 0 5px 5px 5px;
+	text-transform: uppercase;
+	font-family: 'PT Sans',sans-serif;
+	}
+.databox p{
+	margin:0;
+	line-height: 140%
+	}	
+
+.databox p.day{
+	font-size: 250%;
+	font-weight: bold;
+	
+	}
+
+.databox p.mounth{
+	font-size: 120%;
+	
+	}
+.databox p.year{
+	font-weight: bold;
+	font-size: 120%;
+	}	
+
+	
+.news-events .btn{
+	font-size: 120%;
+	background: #58585a;
+	color: #fff;
+	font-weight: bold;
+	padding: 10px 20px;
+	margin-bottom: 0;
+	*margin-left: .3em;
+	font-size: 14px;
+	line-height: 20px;
+	float: right;
+	margin: 10px 0;
+	text-shadow: none;
+	background-image:none;
+	border:0;
+	-webkit-border-radius: 15px;
+     -moz-border-radius: 15px;
+          border-radius: 15px;
+          box-shadow: none;
+	}
+.news-events .btn:hover{	
+	background: #666;
+	}	
+	
+	
+/************partners**********/
+.partners .nav-pills > li {
+    float: left;
+    width: 16.2%;
+	text-align: center;
+	margin-right: 0.5%;
+	text-transform: uppercase;
+}
+
+
+.partners .nav-pills > li > a {
+    border-radius: 0;
+    margin-bottom: 2px;
+    margin-top: 7px;
+    padding-bottom: 0px;
+    padding-top: 8px;
+	min-height: 35px;
+	border-bottom: 2px solid #ABC600;
+	color: #ABC600;
+}
+
+.partners .nav-pills > li:last-child{
+	margin-right: 0 !important;
+}
+
+.partners .nav-pills > .active > a, 
+.partners .nav-pills > .active > a:hover, 
+.partners .nav-pills > .active > a:focus {
+    background-color: #fff;
+    color: #58585a !important;
+	border-bottom: 2px solid #ABC600;
+}
+
+.partners .nav-pills > .active > a:hover, .partners .nav-pills > li > a:hover{
+	background-color: #fff;
+	 color: #58585a !important;
+}
+.enterprises{
+	background: url(../HWManageStreess_files/images/partnerslogos.gif) no-repeat scroll 0 -138px transparent;
+	 background-size: 100%;
+	 height: 380px;
+	}
+	
+	
+	/******footer*******/
+	
+footer ul li{
+	
+}
+
+footer ul {
+	margin: 2em auto 0;
+	display: inline-block
+}
+
+footer a {
+	color: #fff;
+}
+
+footer .nav-pills > li > a {
+    border-radius: 0;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+	border-right: 1px solid #fff;
+}
+
+footer .nav-pills > li > a {
+    line-height: 14px;
+    margin-right: 2px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+footer .nav-pills > li > a:hover {
+    background: #ABC600;
+	color: #58585a !important;
+}
+
+
+
+@media (max-width: 979px) {
+footer {
+   background-size: contain;	
+}
+
+}
+  
+  
+  
+  
+  
+@media (max-width: 480px) {
+
+
+#portal-logo {
+    width: 31%;
+}
+
+
+.form-search {
+    display: none;
+}
+
+
+.navbar-language {
+    padding: 5px 0;
+}
+
+#osha-logo {
+	width: 50%;
+	  margin-top: 5px;
+}
+
+
+#tagline {
+    padding: 75px 0 10px 0px;
+}
+
+#banner {
+    height: auto;
+}
+
+.banner-image{
+	height:150px;
+	
+	}
+
+.banner-text{
+	position: relative;
+	float: left;
+	display: block;
+	width: 100%;
+	background: url(../HWManageStreess_files/images/bannerCopy.png) no-repeat scroll right top transparent;
+	height:auto;
+	padding: 0px 20px;
+	margin-top: 20px;
+	text-align: center;
+	line-height: 180%;
+	right:0;
+	}
+
+.banner-text h2 {
+    background: url("../HWManageStreess_files/images/toolkit.png") no-repeat scroll left top transparent;
+	background-size: 20%;
+	line-height: 350%;
+    font-size: 1.2em;
+    padding-top: 0px;
+	padding-left: 40px;
+    text-transform: uppercase;
+}
+	
+.nav-collapse .nav > li > a:hover,
+.nav-collapse .nav > li > a:focus,
+.nav-collapse .dropdown-menu a:hover,
+.nav-collapse .dropdown-menu a:focus {
+    color: #666
+  }
+  
+.nav-collapse .nav {
+    margin: 5px;
+}
+
+.navbar .nav > li > a {
+    border-right: 0;
+}
+
+.nav-collapse .nav > li > a, .nav-collapse .dropdown-menu a {
+    padding: 5px 15px;
+}
+
+.navbar .nav > li > a { 
+    padding: 5px 15px;
+}
+
+footer ul {
+	margin: 0.5em auto 0;
+}
+
+.partners .nav-pills > li {
+    display: inline-block;
+    float: none;
+    width: 100%;
+}
+
+
+}
