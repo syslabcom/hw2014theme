@@ -1,16 +1,17 @@
+
+
 body{
-
-color: #505152;
-
+	color: #505152;
 }
-
 
 a {
     color: #003298;
     text-decoration: none;
 }
 
-
+h1{
+	text-align: center;
+}
 
 #footer {
 	background: url(../HWManageStress_files/images/footer.gif) no-repeat bottom center #ABC600;
@@ -23,9 +24,6 @@ a {
     margin: 0 auto;
     max-width: 1100px;
 }
-
-h1{
-text-align: center;}
 
 
 /**********header************/
@@ -45,8 +43,7 @@ text-align: center;}
 	position: relative;
 	}
 	
-.form-search input[type="text"]{
-  
+.form-search input[type="text"]{ 
     color: #555555;
     display: inline-block;
     font-size: 14px;
@@ -64,7 +61,6 @@ text-align: center;}
 
 #header{
 	background: url(../HWManageStress_files/images/header.gif) repeat-x top left;
-	
 	}
 
 #header select{
@@ -79,16 +75,11 @@ text-align: center;}
 	
 #header select option{
 	padding-right: 5px;
-	
 	}
 	
-	
-
-
 #portal-logo{
 	position: absolute;
-	top:0;
-	
+	top:0;	
 }
 
 #osha-logo{
@@ -105,9 +96,11 @@ text-align: center;}
 	font-size: 110%;
 	line-height: 130%;
 }
+
 #tagline p{
 	margin:0;
 }
+
 .tagline1{
 	font-size: 100%;
 	padding-left: 30px;
@@ -115,7 +108,8 @@ text-align: center;}
 	}
 
 	
-	/**plone class**/
+/**plone class**/
+
 .hiddenStructure {
     background: none repeat scroll 0 0 transparent;
     border: medium none;
@@ -127,13 +121,14 @@ text-align: center;}
     width: 1px;
 }
 
+/************menu*******************************/
+
 #menu{
 	background: #ABC600;
 	text-transform: uppercase;
-	margin-top: 3px;
+	margin-top: 4px;
 	}
 
-	
 .navbar-inner {
     background-color:  #ABC600;
     background-image:none;
@@ -149,10 +144,11 @@ text-align: center;}
 	  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ABC600', endColorstr='#ABC600', GradientType=0);
   *zoom: 1;
 }
+
 .navbar .nav > li > a {
     color: #fff;
     float: none;
-    padding: 0 15px;
+    padding: 0 13px;
 	margin: 10px 0px;
     text-decoration: none;
     text-shadow: none;
@@ -161,8 +157,8 @@ text-align: center;}
 	line-height: 110%;
 	height: 30px;
 }
-.navbar .nav > li {
-	
+
+.navbar .nav > li {	
 	text-align: center;
 }
 
@@ -176,7 +172,6 @@ text-align: center;}
     color: #555555;
     text-decoration: none;
 }
-
 
 .dropdown-menu {
     padding: 10px;
@@ -205,8 +200,8 @@ text-align: center;}
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ABC600', endColorstr='#ABC600', GradientType=0);
   *zoom: 1;
   background-image:none;
- 
 }
+
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus,
@@ -219,7 +214,6 @@ text-align: center;}
 .navbar .nav li.dropdown.open > .dropdown-toggle, 
 .navbar .nav li.dropdown.active > .dropdown-toggle, 
 .navbar .nav li.dropdown.open.active > .dropdown-toggle{
- 
   background-color: #ABC600;
   *background-color: #ABC600;
 } 
@@ -227,13 +221,10 @@ text-align: center;}
 
 /*************BigBanner*********************/
 
-#banner{
-	
-	
+#banner{	
 	margin-top: 1em;
 	position: relative;
 }
-
 
 #banner .btn{
 	margin-top: 1em;
@@ -295,8 +286,7 @@ text-align: center;}
 	margin: 0 0 20px 0;
 	}
 
-.news-events .item img{
-	
+.news-events .item img{	
 	margin:0px 10px 15px 0;
 	}
 	
@@ -314,6 +304,7 @@ text-align: center;}
 	text-transform: uppercase;
 	font-family: 'PT Sans',sans-serif;
 	}
+	
 .databox p{
 	margin:0;
 	line-height: 140%
@@ -321,19 +312,17 @@ text-align: center;}
 
 .databox p.day{
 	font-size: 250%;
-	font-weight: bold;
-	
+	font-weight: bold;	
 	}
 
 .databox p.mounth{
-	font-size: 120%;
-	
+	font-size: 120%;	
 	}
+	
 .databox p.year{
 	font-weight: bold;
 	font-size: 120%;
 	}	
-
 	
 .news-events .btn{
 	font-size: 120%;
@@ -351,27 +340,35 @@ text-align: center;}
 	background-image:none;
 	border:0;
 	-webkit-border-radius: 15px;
-     -moz-border-radius: 15px;
-          border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
 	behavior: url(./HWManageStress_files/PIE.htc);
           box-shadow: none;
 	}
+	
 .news-events .btn:hover{	
 	background: #666;
 	}	
 	
-	
+
 /************partners**********/
-.partners .nav-pills > li {
-    float: left;
-    width: 16.2%;
+
+.partners.row-fluid [class*="span"] {
+    margin-left: 0.5235602094240838%;
+    *margin-left: 0.4712041884816754%;
+  }
+  
+.partners .row-fluid .span2 {
+    width: 16.032991452991453%;
+    *width: 16.0276723040552828%;
+  }
+
+.partners-menu .nav-pills > li {
 	text-align: center;
-	margin-right: 0.5%;
 	text-transform: uppercase;
 }
 
-
-.partners .nav-pills > li > a {
+.partners-menu .nav-pills > li > a {
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
     border-radius: 0;
@@ -385,35 +382,22 @@ text-align: center;}
 	color: #ABC600;
 }
 
-.partners .nav-pills > li:last-child{
-	margin-right: 0 !important;
-}
-
-.partners .nav-pills > .active > a, 
-.partners .nav-pills > .active > a:hover, 
-.partners .nav-pills > .active > a:focus {
+.partners-menu .nav-pills > .active > a, 
+.partners-menu .nav-pills > .active > a:hover, 
+.partners-menu .nav-pills > .active > a:focus {
     background-color: #fff;
     color: #58585a !important;
 	border-bottom: 3px solid #58585a;
 }
 
-.partners .nav-pills > .active > a:hover, .partners .nav-pills > li > a:hover{
+.partners-menu .nav-pills > .active > a:hover, .partners-menu .nav-pills > li > a:hover{
 	background-color: #fff;
 	 color: #58585a !important;
 	 border-bottom: 3px solid #58585a;
 }
-.enterprises{
-	background: url(../HWManageStress_files/images/partnerslogos.gif) no-repeat scroll 0 -138px transparent;
-	 background-size: 100%;
-	 height: 380px;
-	}
+
 	
-	
-	/******footer*******/
-	
-#footer ul li{
-	
-}
+	/******footer*******/	
 
 #footer ul {
 	margin: 2em auto 0;
@@ -442,6 +426,7 @@ text-align: center;}
     padding-left: 6px;
     padding-right: 6px;
 }
+
 #footer .nav-pills > .active > a:hover, #footer .nav-pills > li > a:hover{
     background: #ABC600 !important;
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ABC600', endColorstr='#ABC600', GradientType=0); *zoom: 1;
@@ -452,10 +437,8 @@ text-align: center;}
 /*************content*************/
 
 #beadcrumb{
-	
 	margin: 1em 20px 0 20px;
 	font-size: 90%;
-	
 }
 
 #beadcrumb a{
@@ -499,11 +482,9 @@ text-align: center;}
 
 /******************SubContent*******************/
 
-
 #content li{  
 	line-height: 150%;	
 }
-
 
 #content h1{  
 	-webkit-border-radius: 30px 30px 0 0;
@@ -514,11 +495,10 @@ text-align: center;}
 	color: #fff;
 	font-size: 1em;
 	text-transform: uppercase;
-	padding: 8px 20px;
+	padding: 5px 20px;
 	margin:1em 0;
 	}
 
-	
 #content h2{  
 	font-size: 26px;
 	}
@@ -534,7 +514,8 @@ text-align: center;}
 #more-content{
 	background: #efefef;
 	margin-top: 3em;
-	
+	z-index: 100;
+	position: relative;
 }	
 	
 #more-content h2{
@@ -542,13 +523,13 @@ text-align: center;}
 	color: #fff;
 	font-size: 1em;
 	text-transform: uppercase;
+	padding: 1px 20px;
+	margin-top: -1em;
+	z-index: 900;
 	-webkit-border-radius:20px;
 	-moz-border-radius: 20px;
 	border-radius: 20px;
 	behavior: url(./HWManageStress_files/PIE.htc);
-	padding: 1px 20px;
-	margin-top: -1em;
-	
 }
 
 #content-image{
@@ -582,6 +563,7 @@ text-align: center;}
     position: relative;
     z-index: 0;
 }
+
 .video-container iframe, .video-container object, .video-container embed {
     height: 100%;
     left: 0;
@@ -596,8 +578,8 @@ text-align: center;}
 .pagination ul > .active > a, .pagination ul > .active > span {
     color: #999999 ;
     cursor: default;
-	
 }
+
 .pagination ul > li > a:hover, .pagination ul > li > a:focus, .pagination ul > .active > a, .pagination ul > .active > span {
     background-color: #ABC600;
 	color: #fff;
@@ -620,197 +602,39 @@ text-align: center;}
 }
 
 
+/**********Material******************/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 1015px) {
-#tagline {
-    padding-top: 47px;
-    font-size: 100%;
-
-}
-
-
-@media (max-width: 1200px) {
-.banner-text{
-	background: url(../HWManageStress_files/images/bannerCopy.png) no-repeat scroll right top transparent;
-	padding: 10px 20px 0 100px;
-	max-height: 400px;
-	}
-
-.banner-text h2{
-	padding-top: 100px;
-	background-size: 50%;
-	}
-	
-#banner {
-   
-}
-
-#footer {
-   background-size: contain;	
-}
-
-
-}
-  
-  @media (max-width: 979px) {
-  
-#portal-logo {
-    width: 140px;
-	
-}
-.banner-text{
-	background: #fff;
-	padding: 10px 10px 0 10px;
-	width: 220px !important;
-	line-height: 160%;
-	height: 326px;
-	-webkit-border-radius: 0 0 15px 15px;
-	-moz-border-radius: 0 0 15px 15px;
-	border-radius: 0 0 15px 15px;
-	behavior: url(./HWManageStress_files/PIE.htc);
-	}
-
-.banner-text h2{
-	padding-top: 65px;
-	background-size: 35%;
-	margin-top: 0;
-	margin-bottom: 0px;
-	}
-	
-#banner {
-    height: 320px;  
-	
-}
-
-
-#banner .btn {
-    margin-top: 5px;
-}
-
-.nav-collapse .nav > li > a:hover,
-.nav-collapse .nav > li > a:focus,
-.nav-collapse .dropdown-menu a:hover,
-.nav-collapse .dropdown-menu a:focus {
-    color: #666
-  }
-  
-.nav-collapse .nav {
-    margin: 5px;
-}
-
-.navbar .nav > li > a {
-    border-right: 0;
-}
-
-.nav-collapse .nav > li > a, .nav-collapse .dropdown-menu a {
-    padding: 5px 15px;
-}
-
-.navbar .nav > li > a { 
-    padding: 5px 15px;
-}
-
-.partners .row-fluid .span2 {
-    width: 30% !important;
-	display: inline !important;
-	float: left;
-}
-}
-  
-  
-  
-@media (max-width: 480px) {
-
-
-#portal-logo {
-    width: 31%;
-}
-
-#tagline.offset2{
-  margin: 0 0 0 !important;
-  padding: 90px 0 10px;
- 
-}
-.form-search {
-    display: none;
-}
-
-
-.navbar-language {
-    padding: 5px 0;
-}
-
-#osha-logo {
-	width: 50%;
-	  margin-top: 5px;
-}
-
-
-#tagline {
-    padding: 75px 0 10px 0px;
-}
-
-#banner {
-    height: auto;
-}
-
-.banner-image{
-	height:190px;
-	
-	}
-
-.banner-text{
+.material-item {
+	border-bottom: 2px solid #B0B1B2;
 	position: relative;
-	float: left;
-	display: block;
-	width: 100% !important;
-	background: url(../HWManageStress_files/images/bannerCopy.png) no-repeat scroll right top transparent;
-	height:auto;
-	padding: 0px 20px;
-	margin-top: 20px;
-	text-align: left;
-	line-height: 180%;
-	right:0;
-	}
-
-.banner-text h2 {
-    background: url("../HWManageStress_files/images/toolkit.png") no-repeat scroll left top transparent;
-	background-size: 18%;
-	line-height: 400%;
-    font-size: 1.2em;
-    padding-top: 0px;
-	padding-left: 80px;
-    text-transform: uppercase;
-}
-	
-
-
-#footer ul {
-	margin: 0.5em auto 0;
 }
 
-.partners .nav-pills > li {
-    display: inline-block;
-    float: none;
-    width: 100%;
+#content .material-item h2{
+	font-size: 22px;
+	font-weight: bold;
+	text-transform: uppercase;	
+}
+
+.material-item .span6, .material-item .span4, .material-item .span2{
+	padding: 1em 0;
+}
+
+.material-item .span6{
+	text-align: right;
+}
+
+.material-info, .material-icon {
+	position: absolute;
+	bottom:0;
+}
+
+.material-info {
+	font-style: italic;
 }
 
 
+#material .row-fluid .span1{
+	margin-left: 0;
 }
+
+
