@@ -243,15 +243,19 @@ h1{
 	text-align: center;
 	line-height: 180%;
 	}
-	
- .banner-text1 img{
+
+.banner-text1{
+	padding: 10px 20px 0 100px;
+	}	
+
+.banner-text1 img{
 	position: absolute;
 	right: 20px;
 	bottom: 10px;
-	}
-
+	}	
+	
 .banner-text1 p{
-	font-size: 135%;
+	font-size: 130%;
 	text-align: right;
 	color: #ABC600;
 	font-family: verdana;
@@ -449,7 +453,7 @@ h1{
 }
 
 
-/*************content*************/
+/*************Section*************/
 
 #beadcrumb{
 	margin: 1em 20px 0 20px;
@@ -495,7 +499,7 @@ h1{
 
 
 
-/******************SubContent*******************/
+/******************SubSection*******************/
 
 #content li{ 
 	line-height: 150%;	
@@ -570,7 +574,7 @@ h1{
 }
 
 
-/********responsive video***********/
+/********Responsive video***********/
 
 .video-container{
     height: 0;
@@ -653,5 +657,23 @@ h1{
 #material .row-fluid .span1{
 	margin-left: 0;
 }
+
+
+/************Photo Gallery**************/
+
+.thumbnail h3{
+	font-size: 100%;
+	margin-bottom: 5px;
+	line-height: 120%;
+	padding: 0 10px;
+}
+
+.thumbnail p{
+	font-size: 80%;
+	margin-bottom: 5px;
+	line-height: 140%;
+	padding: 0 10px;
+}
+
 
 
