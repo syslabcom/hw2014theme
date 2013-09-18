@@ -146,11 +146,19 @@ h1{
 
 /************menu*******************************/
 
+
+
 #menu{
 	background: #ABC600;
 	text-transform: uppercase;
 	margin-top: 10px;
 	}
+	
+.navbar .brand {
+    color: #dbe691;
+    margin-left: 0px;  
+    text-shadow: none;
+}
 
 .navbar-inner {
     background-color:  #ABC600;
@@ -171,7 +179,7 @@ h1{
 .navbar .nav > li > a {
     color: #fff;
     float: none;
-    padding: 0 13px;
+    padding: 0 10px;
 	margin: 10px 0px;
     text-decoration: none;
     text-shadow: none;
