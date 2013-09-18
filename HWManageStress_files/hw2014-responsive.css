@@ -101,15 +101,15 @@
 .navbar .nav > li > a {
     border-right: 0;
 	height: auto;
+	 padding: 15px 15px; 
+    margin: 0;
+  
 }
 
 .nav-collapse .nav > li > a, .nav-collapse .dropdown-menu a {
-    padding: 5px 15px;
+    padding: 15px 15px;
 }
 
-.navbar .nav > li > a { 
-    padding: 5px 15px;
-}
 
 .partners-logos .row-fluid .span2 {
     width: 30% !important;

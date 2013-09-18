@@ -155,18 +155,22 @@ h1{
 	}
 	
 .navbar .brand {
-    color: #dbe691;
+    color: #FFF;
     margin-left: 0px;  
     text-shadow: none;
+	float: right;
+	font-size: 1em;
+	FONT-WEIGHT: BOLD;
+	TEXT-TRANSFORM: NONE;
 }
 
 .navbar-inner {
     background-color:  #ABC600;
     background-image:none;
     border: 0;
-	-webkit-border-radius: 0;
-    -moz-border-radius: 0;
-	border-radius: 0;
+	-webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+	border-radius: 0px;
 	behavior: url(./HWManageStress_files/PIE.htc);
     box-shadow: none;
     min-height: 40px;
