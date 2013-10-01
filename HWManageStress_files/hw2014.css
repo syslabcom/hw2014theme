@@ -1,5 +1,3 @@
-
-
 body{
 	color: #505152;
 }
@@ -534,7 +532,13 @@ h1{
 	color: #505152;
 }
 
-
+.pullquote{
+font-weight: normal;
+font-style: italic;
+font-size: 24px;
+line-height: 140%;
+color: #B1B3B4;
+}
 
 
 
@@ -592,9 +596,14 @@ h1{
 	behavior: url(./HWManageStress_files/PIE.htc);
 }
 
-#content-image{
+#content-image img{
 	margin-bottom: 1em;
 }
+
+#contentext{
+	padding: 0 20px;
+}
+
 
 #more-content .item{	
 	padding: 0 2em 1em 2em;	
