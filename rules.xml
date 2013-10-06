@@ -51,4 +51,7 @@
     <!-- See also -->
     <replace css:theme-children="div#seeAlso" css:content-children="div#seeAlso" />
 
+    <!-- Section image -->
+    <replace css:theme-children="div#content-image" css:content-children="div#sectionImage" />
+
 </rules>
