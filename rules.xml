@@ -47,7 +47,7 @@
     <replace  css:if-content="body.template-hw2014_front_page" css:theme-children="div.news-events" css:content="div.news-events"/>
 
     <!-- Frontpage partner logos -->
-    <replace css:theme-children="div#partners-logos" css:content-children="div#partners-logos" />
+    <replace css:theme-children="div#frontpage-partners" css:content-children="div#frontpage-partners" />
 
     <!-- Related sites -->
     <replace css:theme-children="div#relatedSites" css:content-children="div#relatedSites" />
