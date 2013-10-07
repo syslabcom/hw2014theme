@@ -55,7 +55,10 @@
     <!-- See also -->
     <replace css:theme-children="div#seeAlso" css:content-children="div#seeAlso" />
 
-    <!-- Section image -->
+    <!-- Section intro image -->
+    <replace css:theme-children="div#intro-image" css:content-children="div#intro-image" />
+
+    <!-- SubSection image -->
     <replace css:theme-children="div#content-image" css:content-children="div#sectionImage" />
     <replace css:theme-children="div#content-image-1" css:content-children="div#sectionImage-1" />
     <replace css:theme-children="div#content-image-2" css:content-children="div#sectionImage-2" />
