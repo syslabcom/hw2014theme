@@ -418,13 +418,24 @@ h1{
     width: 16.032991452991453%;
     *width: 16.0276723040552828%;
   }
-
-.partners-menu .nav-pills > li {
+.partners-menu .nav-tabs{
+	border: 0;
+}
+.partners-menu .nav-tabs > li {
 	text-align: center;
 	text-transform: uppercase;
+	line-height: 12px
 }
 
-.partners-menu .nav-pills > li > a {
+.partners-menu img{
+	max-width: 70% !important;
+}
+
+.partners .row-fluid .span2 {
+    text-align: center;
+}
+
+.partners-menu .nav-tabs > li > a {
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
     border-radius: 0;
@@ -434,21 +445,25 @@ h1{
     padding-bottom: 0px;
     padding-top: 8px;
 	min-height: 35px;
+	line-height: 14px;
+	border:0;
 	border-bottom: 4px solid #ABC600;
 	color: #ABC600;
 }
 
-.partners-menu .nav-pills > .active > a, 
-.partners-menu .nav-pills > .active > a:hover, 
-.partners-menu .nav-pills > .active > a:focus {
+.partners-menu .nav-tabs > .active > a, 
+.partners-menu .nav-tabs > .active > a:hover, 
+.partners-menu .nav-tabs > .active > a:focus {
     background-color: #fff;
     color: #58585a !important;
+	border:0;
 	border-bottom: 4px solid #58585a;
 }
 
-.partners-menu .nav-pills > .active > a:hover, .partners-menu .nav-pills > li > a:hover{
+.partners-menu .nav-tabs > .active > a:hover, .partners-menu .nav-tabs > li > a:hover{
 	background-color: #fff;
 	 color: #58585a !important;
+	 border:0;
 	 border-bottom: 4px solid #58585a;
 }
 
