@@ -3,7 +3,7 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
     <theme href="HWManageStress2.htm" css:if-content="body.template-hw2014_front_page"/>
-    <theme href="HWManageStressContent.htm" css:if-content="body.portaltype-folder"/>
+    <theme href="HWManageStressContent.htm" css:if-content="body.section-intro"/>
     <theme href="HWManageStressSubContent2images.htm" css:if-content="body.two-images" />
     <theme href="HWManageStressSubContent.htm" css:if-content="div#visual-portal-wrapper" />
 
@@ -36,7 +36,8 @@
 
     <!-- Main Content -->
     <!-- Content type-->
-    <replace css:theme-children="div.intro-left" css:content-children="div#content-core"/>
+    <replace css:theme-children="div#introtext" css:content-children="div#introtext"/>
+    <replace css:theme-children="div#intronavigation" css:content-children="div#intronavigation"/>
     <!-- SubContent type-->
     <replace css:theme-children="div#contentext" css:content-children="div#content-core"/>
 
