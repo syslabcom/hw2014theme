@@ -5,6 +5,7 @@
     <theme href="HWManageStress2.htm" css:if-content="body.template-hw2014_front_page"/>
     <theme href="HWManageStressContent.htm" css:if-content="body.section-intro"/>
     <theme href="HWManageStressSubContent2images.htm" css:if-content="body.two-images" />
+    <theme href="HWManageStressSubContentPhotoGalery.htm" css:if-content="body.template-atct_album_view" />
     <theme href="HWManageStressSubContent.htm" css:if-content="div#visual-portal-wrapper" />
 
     <replace theme="/html/head/base" content="/html/head/base"/>
@@ -67,5 +68,24 @@
     <replace css:theme-children="div#content-image" css:content-children="div#sectionImage" />
     <replace css:theme-children="div#content-image-1" css:content-children="div#sectionImage-1" />
     <replace css:theme-children="div#content-image-2" css:content-children="div#sectionImage-2" />
+
+
+    <!-- plone.app.toolbar -->
+    <before theme-children="/html/body" content="//div[@data-iframe='plone-toolbar']" />
+    <before theme-children="/html/head">
+        <link rel="stylesheet" type="text/css" href="++resource++plone.app.widgets.css"/>
+        <link rel="stylesheet" type="text/css" href="++resource++plone.app.toolbar_init.css"/>
+        <link rel="stylesheet" type="text/css" href="++resource++plone.app.toolbar.css"/>
+        <script type="text/javascript" src="++resource++plone.app.jquery.js"></script>
+        <script type="text/javascript" src="++resource++plone.app.toolbar_init.js"></script>
+        <script type="text/javascript" src="++resource++plone.app.toolbar.js"></script>
+        <script type="text/javascript" src="++resource++plone.app.widgets.js"></script>
+    </before>
+
+    <!-- Photo Gallery images -->
+    <drop css:theme-children="ul.thumbnails:last-child" />
+    <replace css:theme-children="ul.thumbnails:first-child" css:content="ul.thumbnails li" />
+    <!-- Photo Gallery batch navigation -->
+    <replace css:theme="div.pagination" css:content="div.pagination" />
 
 </rules>
