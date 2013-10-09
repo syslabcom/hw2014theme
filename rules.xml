@@ -9,6 +9,7 @@
 
     <replace theme="/html/head/base" content="/html/head/base"/>
     <replace theme="/html/head/title" content="/html/head/title"/>
+    <replace css:theme="#logo-container" css:content="#logo-container"/>
 
     <!-- Breadcrumbs -->
     <drop css:content="span#breadcrumbs-you-are-here" />
