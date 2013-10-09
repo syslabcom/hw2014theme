@@ -5,6 +5,7 @@
     <theme href="HWManageStress2.htm" css:if-content="body.template-hw2014_front_page"/>
     <theme href="HWManageStressContent.htm" css:if-content="body.section-intro"/>
     <theme href="HWManageStressSubContent2images.htm" css:if-content="body.two-images" />
+    <theme href="HWManageStressSubContentPhotoGalery.htm" css:if-content="body.template-atct_album_view" />
     <theme href="HWManageStressSubContent.htm" css:if-content="div#visual-portal-wrapper" />
 
     <replace theme="/html/head/base" content="/html/head/base"/>
@@ -79,5 +80,29 @@
         <script type="text/javascript" src="++resource++plone.app.toolbar.js"></script>
         <script type="text/javascript" src="++resource++plone.app.widgets.js"></script>
     </before>
+
+    <!-- Photo Gallery images -->
+    <drop css:theme-children="ul.thumbnails:last-child" />
+    <replace css:theme-children="ul.thumbnails:first-child" css:content="ul.thumbnails li" />
+    <!-- Photo Gallery batch navigation -->
+    <drop theme="//*[contains(@class, 'pagination')]/ul/li[position()>1 and 7>position()]" />
+    <copy css:theme="div.pagination #pagination-previous" css:content="div.listingBar .previous a" attributes="href" />
+    <drop css:theme="div.pagination #pagination-previous" css:if-not-content="div.listingBar .previous a" />
+    <after css:theme="div.pagination #pagination-previous">
+        <xsl:for-each select="//*[contains(@class, 'listingBar')]/span[not(@class='next' or @class='previous')] | //*[contains(@class, 'listingBar')]/a">
+            <xsl:if test="name()='a'">
+                <li>
+                    <xsl:copy-of select="." />
+                </li>
+            </xsl:if>
+            <xsl:if test="name()='span'">
+                <li class="active">
+                    <xsl:copy-of select="." />
+                </li>
+            </xsl:if>
+        </xsl:for-each>
+    </after>
+    <copy css:theme="div.pagination #pagination-next" css:content="div.listingBar .next a" attributes="href" />
+    <drop css:theme="div.pagination #pagination-next" css:if-not-content="div.listingBar .next a" />
 
 </rules>
