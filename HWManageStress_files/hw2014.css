@@ -739,6 +739,11 @@ color: #B1B3B4;
 }
 
 
+.thumbnail .modal {
+    width: 800px;
+    margin-left: -370px;
+}
+
 .thumbnail .modal-header table {
     width: 100%;
 }
