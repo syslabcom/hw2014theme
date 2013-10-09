@@ -83,8 +83,8 @@
     </before>
 
     <!-- Photo Gallery images -->
-    <drop css:theme-children="ul.thumbnails:last-child" />
-    <replace css:theme-children="ul.thumbnails:first-child" css:content="ul.thumbnails li" />
+    <drop css:theme="ul.thumbnails:last-child" />
+    <replace css:theme="ul.thumbnails" css:content="ul.thumbnails" />
     <!-- Photo Gallery batch navigation -->
     <replace css:theme="div.pagination" css:content="div.pagination" />
 
