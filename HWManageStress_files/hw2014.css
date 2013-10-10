@@ -63,8 +63,8 @@ h1{
 	margin-left: 2em;
 	position: relative;
 	}
-	
-.form-search input[type="text"]{ 
+
+.form-search input[type="text"]{
     color: #555555;
     display: inline-block;
     font-size: 14px;
@@ -93,14 +93,14 @@ h1{
 	font-weight: bold;
 	font-size: 12px;
 	}
-	
+
 #header select option{
 	padding-right: 5px;
 	}
-	
+
 #portal-logo{
 	position: absolute;
-	top:0;	
+	top:0;
 }
 
 #osha-logo{
@@ -108,7 +108,7 @@ h1{
 	margin-top: 20px;
 	margin-bottom: 5px;
 	}
-	
+
 #tagline{
 	padding: 43px 0 20px 0px;
 	font-family: 'PT Sans', sans-serif;
@@ -128,7 +128,7 @@ h1{
 	color: #505152;
 	}
 
-	
+
 /**plone class**/
 
 .hiddenStructure {
@@ -151,10 +151,10 @@ h1{
 	text-transform: uppercase;
 	margin-top: 10px;
 	}
-	
+
 .navbar .brand {
     color: #FFF;
-    margin-left: 0px;  
+    margin-left: 0px;
     text-shadow: none;
 	float: right;
 	font-size: 1em;
@@ -191,11 +191,11 @@ h1{
 	height: 30px;
 }
 
-.navbar .nav > li {	
+.navbar .nav > li {
 	text-align: center;
 }
 
-.navbar .nav > li li{	
+.navbar .nav > li li{
 	text-align: left;
 }
 
@@ -248,17 +248,23 @@ h1{
 .navbar .btn-navbar.active,
 .navbar .btn-navbar.disabled,
 .navbar .btn-navbar[disabled],
-.navbar .nav li.dropdown.open > .dropdown-toggle, 
-.navbar .nav li.dropdown.active > .dropdown-toggle, 
+.navbar .nav li.dropdown.open > .dropdown-toggle,
+.navbar .nav li.dropdown.active > .dropdown-toggle,
 .navbar .nav li.dropdown.open.active > .dropdown-toggle{
   background-color: #ABC600;
   *background-color: #ABC600;
-} 
+}
+
+
+#menu ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+}
+
 
 
 /*************BigBanner*********************/
 
-#banner{	
+#banner{
 	margin-top: 1em;
 	position: relative;
 }
@@ -283,14 +289,14 @@ h1{
 
 .banner-text1{
 	padding: 10px 20px 0 100px;
-	}	
+	}
 
 .banner-text1 img{
 	position: absolute;
 	right: 20px;
 	bottom: 10px;
-	}	
-	
+	}
+
 .banner-text1 p{
 	font-size: 130%;
 	text-align: right;
@@ -298,7 +304,7 @@ h1{
 	font-family: verdana;
 	font-style: italic;
 	margin-top: 10px;
-	
+
 	}
 .banner-text h2{
 	padding-top: 150px;
@@ -311,7 +317,7 @@ h1{
 	margin:2em 0 0 0;
 	position: relative;
 	}
-	
+
 /*************News-Events*********************/
 
 .news-events h2, .partners h2, #content h1{
@@ -326,30 +332,30 @@ h1{
 	padding: 5px 20px;
 	margin:0;
 	}
-	
+
 .news-events .item {
 	background:#f2f7d8;
 	padding: 15px;
 	}
-	
+
 .first {
 	border-bottom: 1px solid #ABC600;
-	
-	}	
+
+	}
 .news-events .item h3{
 	font-size: 1.3em;
 	line-height: 140%;
 	margin: 0 0 20px 0;
 	}
 
-.news-events .item img{	
+.news-events .item img{
 	margin:0px 10px 15px 0;
 	}
-	
+
 .news-events .item .data{
 	margin:5px 0;
 	}
-	
+
 .databox {
 	background:#ABC600;
 	color: #fff;
@@ -360,26 +366,26 @@ h1{
 	text-transform: uppercase;
 	font-family: 'PT Sans',sans-serif;
 	}
-	
+
 .databox p{
 	margin:0;
 	line-height: 140%
-	}	
+	}
 
 .databox p.day{
 	font-size: 250%;
-	font-weight: bold;	
+	font-weight: bold;
 	}
 
 .databox p.mounth{
-	font-size: 120%;	
+	font-size: 120%;
 	}
-	
+
 .databox p.year{
 	font-weight: bold;
 	font-size: 120%;
-	}	
-	
+	}
+
 .news-events .btn{
 	font-size: 120%;
 	background: #58585a;
@@ -401,11 +407,11 @@ h1{
 	behavior: url(./HWManageStress_files/PIE.htc);
           box-shadow: none;
 	}
-	
-.news-events .btn:hover{	
+
+.news-events .btn:hover{
 	background: #666;
-	}	
-	
+	}
+
 
 /************partners**********/
 
@@ -413,7 +419,7 @@ h1{
     margin-left: 0.5235602094240838%;
     *margin-left: 0.4712041884816754%;
   }
-  
+
 .partners .row-fluid .span2 {
     width: 16.032991452991453%;
     *width: 16.0276723040552828%;
@@ -451,8 +457,8 @@ h1{
 	color: #ABC600;
 }
 
-.partners-menu .nav-tabs > .active > a, 
-.partners-menu .nav-tabs > .active > a:hover, 
+.partners-menu .nav-tabs > .active > a,
+.partners-menu .nav-tabs > .active > a:hover,
 .partners-menu .nav-tabs > .active > a:focus {
     background-color: #fff;
     color: #58585a !important;
@@ -467,8 +473,8 @@ h1{
 	 border-bottom: 4px solid #58585a;
 }
 
-	
-	/******footer*******/	
+
+	/******footer*******/
 
 #footer ul {
 	margin: 2em auto 0;
@@ -559,11 +565,11 @@ color: #B1B3B4;
 
 /******************SubSection*******************/
 
-#content li{ 
-	line-height: 150%;	
+#content li{
+	line-height: 150%;
 }
 
-#content h1{  
+#content h1{
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
 	border-radius: 20px;
@@ -577,15 +583,15 @@ color: #B1B3B4;
 	line-height: 36px;
 	}
 
-#content h2{  
+#content h2{
 	font-size: 26px;
 	}
-	
-#content strong{  
+
+#content strong{
 	font-size: 110%;
 	}
-	
-#content li{  
+
+#content li{
 	margin-bottom: 1em;
 	}
 
@@ -594,8 +600,8 @@ color: #B1B3B4;
 	margin-top: 3em;
 	z-index: 100;
 	position: relative;
-}	
-	
+}
+
 #more-content h2{
 	background: #b1b3b4;
 	line-height: 36px;
@@ -620,9 +626,9 @@ color: #B1B3B4;
 }
 
 
-#more-content .item{	
-	padding: 0 2em 1em 2em;	
-}	
+#more-content .item{
+	padding: 0 2em 1em 2em;
+}
 
 #more-content li{
 	font-size: 90%;
@@ -696,7 +702,7 @@ color: #B1B3B4;
 #content .material-item h2{
 	font-size: 22px;
 	font-weight: bold;
-	text-transform: uppercase;	
+	text-transform: uppercase;
 }
 
 .material-item .span6, .material-item .span4, .material-item .span2{
