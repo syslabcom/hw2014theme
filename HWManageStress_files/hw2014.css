@@ -745,4 +745,24 @@ color: #B1B3B4;
 }
 
 
+.thumbnail .modal {
+    width: 800px;
+    margin-left: -370px;
+}
 
+.thumbnail .modal-header table {
+    width: 100%;
+}
+
+.thumbnail .modal-header td.nav {
+    width: 40px;
+}
+
+.thumbnail .modal-header h3 {
+    text-align: center;
+}
+
+.thumbnail .modal-header a {
+    font-size: 200%;
+    text-decoration: none;
+}
