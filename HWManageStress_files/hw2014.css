@@ -415,6 +415,10 @@ h1{
 
 /************partners**********/
 
+
+#frontpage-partners{
+	margin-bottom: 3em;}
+	
 .partners.row-fluid [class*="span"] {
     margin-left: 0.5235602094240838%;
     *margin-left: 0.4712041884816754%;
@@ -433,9 +437,6 @@ h1{
 	line-height: 12px
 }
 
-.partners-menu img{
-	max-width: 70% !important;
-}
 
 .partners .row-fluid .span2 {
     text-align: center;
@@ -473,6 +474,16 @@ h1{
 	 border-bottom: 4px solid #58585a;
 }
 
+
+.partners-menu img {
+    max-width: 70% !important;
+	margin-top: 2em;
+}
+
+.partners-menu .logovertical img {
+    max-width: 50% !important;
+	margin-top: 0 !important;
+}
 
 	/******footer*******/
 
