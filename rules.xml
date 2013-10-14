@@ -37,11 +37,16 @@
     <replace css:theme="div#content h1" css:content="h1.documentFirstHeading"/>
 
     <!-- Main Content -->
-    <!-- Content type-->
-    <replace css:theme-children="div#introtext" css:content-children="div#introtext"/>
-    <replace css:theme-children="div#intronavigation" css:content-children="div#intronavigation"/>
-    <!-- SubContent type-->
-    <replace css:theme-children="div#contentext" css:content-children="div#content-core"/>
+    <!-- Description et al -->
+    <replace css:theme-children="div#introtext" css:content=".documentDescription"/>
+    <replace css:theme-children="div#intronavigation" css:content=".documentDescription"/>
+    <replace css:theme-children="div#contentext" css:content=".documentDescription"/>
+
+    <!-- Content type -->
+    <after css:theme-children="div#introtext" css:content-children="div#introtext"/>
+    <after css:theme-children="div#intronavigation" css:content-children="div#intronavigation"/>
+    <!-- SubContent type -->
+    <after css:theme-children="div#contentext" css:content-children="div#content-core"/>
 
     <!-- Content navigation -->
     <replace css:theme="ul#contentnav" css:content="dl.portletNavigationTree ul"/>
