@@ -1,0 +1,214 @@
+
+
+@media (max-width: 1200px) {
+
+
+
+}
+  
+@media (max-width: 979px) {
+  
+
+
+#tagline {
+    margin-left: 200px;
+}
+
+#banner{
+	
+	
+	}
+	
+.banner-text-left h2{
+	font-size: 25px;
+	line-height: 30px;
+	}	
+
+.banner-text-left h4{
+	margin: 1em 0;
+	font-size: 17px
+	}
+	
+.banner-text-left h3{
+	font-size: 18px;
+	line-height: 25px;
+	}
+	
+#date span {
+    font-size: 40px;
+    line-height: 50px;
+    padding: 0 4px;  
+}
+	
+#daysleft ul li span {   
+    font-size: 40px;
+    line-height: 33px;
+}
+
+#daysleft ul li {    
+    font-size: 65%;
+}
+
+.banner-text-right .item {
+    height: 80px;
+}
+
+.banner-text-right .item .image img{
+    width: 80px;
+}
+
+.banner-text-right .item .text {
+    font-size: 14px;
+    line-height: 20px;
+	padding: 7px;
+}
+
+.banner-text-right .item .image {
+    margin-top: -20px;
+}
+	
+	
+}
+  
+
+@media (max-width: 880px) {
+
+
+.banner-image img {
+display: none;
+}
+
+
+.banner-image  {
+
+background: url(../HWManageStress_files/images/manage.gif) no-repeat top center;
+padding-top: 230px;
+}
+
+
+#columns-container{
+background: url(../HWManageStress_files/images/greenbody.gif) top left;
+border-radius: 10px;
+ -moz-box-shadow:    inset 0 0 30px #333;
+   -webkit-box-shadow: inset 0 0 30px #333;
+   box-shadow:         inset 0 0 30px #333;
+   margin-bottom: 2em;
+}
+.banner-text-left, .banner-text-right {
+    position: relative;
+}
+
+.banner-text-left{
+    text-align: center;
+}
+
+#portal-logo {
+	width: 30%;
+}
+
+#tagline.offset2{
+  margin: 0 0 0 !important;
+
+}
+
+#tagline.offset2{
+ padding: 143px 0 20px;
+}
+
+
+#osha-logo {
+    float: right;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+
+.tagline1 {
+    padding-left: 0px;
+}
+
+
+/*
+.form-search {
+    display: none;
+}
+
+
+.navbar-language {
+    padding: 5px 0;
+}
+
+#osha-logo {
+	width: 50%;
+	margin-top: 5px;
+}
+
+
+
+
+#tagline {
+    padding: 55px 0 10px 0px;
+}
+
+.tagline1 {
+    padding-left:0px;
+}
+
+#banner {
+    height: auto;
+}
+
+.banner-image .pull-left{
+	float: none;
+	}
+
+.banner-text, .banner-text1{
+	position: relative;
+	float: left;
+	display: block;
+	width: 100% !important;
+	background: url(../HWManageStress_files/images/bannerCopy.png) no-repeat scroll right top transparent;
+	padding: 0px;
+	margin-top: 0px;
+	line-height: 180%;
+	right:0;
+	height: auto;
+	}
+	
+.banner-text1 p{
+	text-align:center;
+	font-size: 125%;
+	}
+	
+.banner-text1 img{
+	display: none;
+	}
+
+
+.banner-text h2 {
+	background: url("../HWManageStress_files/images/toolkit.png") no-repeat scroll center top transparent;
+	background-size: 18%;
+}
+	
+
+
+#footer ul {
+	margin: 0.5em auto 0;
+}
+
+
+.material-item .span6{
+	text-align: left;
+}
+
+.material-info, .material-icon {
+    bottom: 0;
+    position: relative;
+}
+
+
+}
+
+
+
+
