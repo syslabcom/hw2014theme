@@ -777,3 +777,72 @@ color: #B1B3B4;
     font-size: 200%;
     text-decoration: none;
 }
+
+
+/************Event listing**************/
+
+.vevent {
+	clear: both;
+}
+
+.vevent div.cal_date {
+	background: none repeat scroll 0 0 #B1B3B4;
+	border-radius: 20px 20px 20px 20px;
+	color: #FFFFFF;
+	border: medium none;
+	float: left;
+	min-width: 60px;
+	height: 60px;
+	vertical-align: top;
+	font-size: 1.2em;
+	margin: -0.3em 1em 1.3em 0;
+	padding: 15px;
+	text-transform: uppercase;
+}
+
+.vevent span.cal_wkday {
+	display: block;
+	font-weight: bold;
+	padding-bottom: 0.3em;
+}
+
+.vevent span.cal_day {
+	display: inline-block;
+	font-size: 70%;
+	padding-top: 0.3em;
+}
+
+.vevent span.cal_month {
+	display: inline-block;
+	font-size: 70%;
+	line-height: 1.3em;
+}
+
+.hCalendar-hidden {
+  display: none;
+}
+
+.vevent .metadata {
+  display: none;
+}
+
+.event_listing nav ul {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+.event_listing nav ul li {
+  display: inline-block;
+  line-height: 2em;
+  margin: 0;
+  padding: 0 0.75em;
+}
+
+.event_listing ul.mode_selector li.selected {
+  font-weight: bold;
+}
+
+.event_listing nav ul li a {
+  border: medium none;
+  display: inline-block;
+}
