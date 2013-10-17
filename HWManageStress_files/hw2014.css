@@ -424,7 +424,7 @@ h1{
 
 #frontpage-partners{
 	margin-bottom: 3em;}
-	
+
 .partners.row-fluid [class*="span"] {
     margin-left: 0.5235602094240838%;
     *margin-left: 0.4712041884816754%;
@@ -785,30 +785,29 @@ color: #B1B3B4;
     text-decoration: none;
 }
 
-
 /***partners******************/
 
 .more{
 	margin: 3em 0;
 	}
-	
+
 #contentext dt{
 	float: left;
 	display: block;
 	font-family: verdana;
 	}
-	
+
 #contentext dl{
 	border-bottom: 1px solid #B1B3B4;
 	padding: 0 0 1em;
 	line-height: 150% !important;
 	margin-bottom: 0;
 	}
-	
+
 #contentext dl:last-child{
 	border-bottom:0;
 	}
-	
+
 #content-image{
 	font-style: italic;
 	line-height: 120%;
@@ -868,5 +867,71 @@ padding: 1em;
 	border-radius: 300px;
 	display: block;
 	margin: 0 auto 10px;
-	
+
+/************Event listing**************/
+
+.vevent {
+	clear: both;
+}
+
+.vevent div.cal_date {
+	background: none repeat scroll 0 0 #B1B3B4;
+	border-radius: 20px 20px 20px 20px;
+	color: #FFFFFF;
+	border: medium none;
+	float: left;
+	min-width: 60px;
+	height: 60px;
+	vertical-align: top;
+	font-size: 1.2em;
+	margin: -0.3em 1em 1.3em 0;
+	padding: 15px;
+	text-transform: uppercase;
+}
+
+.vevent span.cal_wkday {
+	display: block;
+	font-weight: bold;
+	padding-bottom: 0.3em;
+}
+
+.vevent span.cal_day {
+	display: inline-block;
+	font-size: 70%;
+	padding-top: 0.3em;
+}
+
+.vevent span.cal_month {
+	display: inline-block;
+	font-size: 70%;
+	line-height: 1.3em;
+}
+
+.hCalendar-hidden {
+  display: none;
+}
+
+.vevent .metadata {
+  display: none;
+}
+
+.event_listing nav ul {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+.event_listing nav ul li {
+  display: inline-block;
+  line-height: 2em;
+  margin: 0;
+  padding: 0 0.75em;
+}
+
+.event_listing ul.mode_selector li.selected {
+  font-weight: bold;
+}
+
+.event_listing nav ul li a {
+  border: medium none;
+  display: inline-block;
 }
