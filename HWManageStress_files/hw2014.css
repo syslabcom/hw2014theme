@@ -644,6 +644,15 @@ color: #B1B3B4;
 }
 
 
+#contentext h3{
+	color: #ABC600;
+}
+
+
+#contentext ul.events{
+	list-style: none;
+	margin-left:0;
+}
 #more-content .item{
 	padding: 0 2em 1em 2em;
 }
@@ -819,7 +828,7 @@ color: #B1B3B4;
 
 
 
-.focalpoints-menu .nav-tabs > li > a {
+.focalpoints-menu ul li a {
     -moz-border-bottom-colors: none;
     -moz-border-left-colors: none;
     -moz-border-right-colors: none;
@@ -831,31 +840,53 @@ color: #B1B3B4;
     margin-top: 7px;
     min-height: 35px;
     padding: 0 0 8px 0;
+	
+}
+
+.focalpoints-menu ul li {
+    display: inline;
+}
+
+.focalpoints-menu ul {
+	text-align: center;
+	list-style: none;
+	margin: 0.5em 0;
 	font-size: 200%;
 	text-transform: uppercase;
+	color: #ABC600;
 }
 
-.focalpoints-menu .nav-tabs {
+.focalpoints-menu{
     border-bottom: 4px solid #ABC600;
-	text-align: center;
 }
 
-.focalpoints-menu .row-fluid{
+.focalpoints-logos .row-fluid{
 	border-bottom: 1px solid #B1B3B4;
 }
 
-.focalpoints-menu .span8{
-background: #efefef;
-padding: 1em;
+.focalpoints-logos .row-fluid .span8{
+	position: relative;
 }
 
-.focalpoints-menu .letter {
+.focalpoints-logos .row-fluid:last-child{
+	border-bottom: 0;
+}
+
+.focalpoints-logos .span8{
+	background: #efefef;
+	padding: 1em;
+}
+
+
+
+.focalpoints-logos .letter {
 	text-transform: uppercase;
 	font-size:60px;
 	text-align: right !important;
 	line-height: 120px;
 	padding-right: 10px;
 }
+
 .country{
 	float: left;
 	text-align: center;
@@ -867,7 +898,21 @@ padding: 1em;
 	border-radius: 300px;
 	display: block;
 	margin: 0 auto 10px;
+}
 
+
+.flagsup{
+	position: absolute;
+	right: 10px;
+	bottom:10px;
+	text-indent: -1000px;
+	background: url(../HWManageStress_files/images/flagsup.gif) no-repeat;
+	width: 20px;
+	height: 20px;
+	}
+	
+	
+	
 /************Event listing**************/
 
 .vevent {
