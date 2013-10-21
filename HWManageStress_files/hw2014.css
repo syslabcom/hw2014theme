@@ -612,12 +612,24 @@ color: #B1B3B4;
 #content li{
 	margin-bottom: 1em;
 	}
+	
+#content a{
+	text-decoration: underline;
+	}
 
 #more-content{
 	background: #efefef;
 	margin-top: 3em;
 	z-index: 100;
 	position: relative;
+}
+
+#more-content a{
+	text-decoration: none;
+}
+
+#more-content a:hover{
+	text-decoration: underline;
 }
 
 #more-content h2{
@@ -637,15 +649,20 @@ color: #B1B3B4;
 
 #content-image img{
 	margin-bottom: 1em;
+	font-family: verdana;
+	font-size: 90%;
 }
 
 #contentext{
 	padding: 0 20px;
+	font-family: verdana;
+	font-size: 90%;
 }
 
 
 #contentext h3{
 	color: #ABC600;
+	font-size: 1.2em;
 }
 
 
@@ -818,8 +835,14 @@ color: #B1B3B4;
 	}
 
 #content-image{
+	
+	font-family: verdana;
+	font-size: 80%;
+	line-height: 130%;
+}
+
+#content-image .quote{
 	font-style: italic;
-	line-height: 120%;
 }
 
 .partnerlogo img{
