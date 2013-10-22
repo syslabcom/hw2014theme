@@ -8,6 +8,7 @@
     <theme href="HWManageStressSubContent2images.htm" css:if-content="body.two-images" />
     <theme href="HWManageStressSubContentPhotoGalery.htm" css:if-content="body.template-atct_album_view" />
     <theme href="HWManageStressSubContentFullFullText.htm" css:if-content="body.full-width" />
+    <theme href="HWManageStressSubContentPartners.htm" css:if-content="body.portaltype-osha-hwccontent-organisation" />
 
     <!-- default is full width -->
     <theme href="HWManageStressSubContentFullFullText.htm" css:if-content="div#visual-portal-wrapper" />
