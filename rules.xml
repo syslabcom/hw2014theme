@@ -88,6 +88,7 @@
 
 
     <!-- plone.app.toolbar -->
+<!--
     <before theme-children="/html/body" content="//div[@data-iframe='plone-toolbar']" />
     <before theme-children="/html/head">
         <link rel="stylesheet" type="text/css" href="++resource++plone.app.widgets.css"/>
@@ -98,6 +99,7 @@
         <script type="text/javascript" src="++resource++plone.app.toolbar.js"></script>
         <script type="text/javascript" src="++resource++plone.app.widgets.js"></script>
     </before>
+-->
 
     <!-- Photo Gallery images -->
     <drop css:theme="ul.thumbnails:last-child" />
