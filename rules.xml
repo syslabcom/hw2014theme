@@ -16,6 +16,14 @@
     <replace theme="/html/head/title" content="/html/head/title"/>
     <replace css:theme="#logo-container" css:content="#logo-container"/>
 
+    <!-- allow basic editing -->
+    <before theme-children="/html/head" content="/html/head/script" />
+    <before theme-children="/html/head">
+        <link rel="stylesheet" type="text/css" href="authoring.css"/>
+        <link rel="stylesheet" type="text/css" href="forms.css"/>
+    </before>
+
+
     <!-- Breadcrumbs -->
     <drop css:content="span#breadcrumbs-you-are-here" />
     <replace css:content="span.breadcrumbSeparator">::</replace>
