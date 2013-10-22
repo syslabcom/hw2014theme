@@ -4,13 +4,25 @@
 
     <theme href="HWManageStress2.htm" css:if-content="body.template-hw2014_front_page"/>
     <theme href="HWManageStressContent.htm" css:if-content="body.section-intro"/>
+    <theme href="HWManageStressSubContent.htm" css:if-content="body.subsection" />
     <theme href="HWManageStressSubContent2images.htm" css:if-content="body.two-images" />
     <theme href="HWManageStressSubContentPhotoGalery.htm" css:if-content="body.template-atct_album_view" />
-    <theme href="HWManageStressSubContent.htm" css:if-content="div#visual-portal-wrapper" />
+    <theme href="HWManageStressSubContentFullFullText.htm" css:if-content="body.full-width" />
+
+    <!-- default is full width -->
+    <theme href="HWManageStressSubContentFullFullText.htm" css:if-content="div#visual-portal-wrapper" />
 
     <replace theme="/html/head/base" content="/html/head/base"/>
     <replace theme="/html/head/title" content="/html/head/title"/>
     <replace css:theme="#logo-container" css:content="#logo-container"/>
+
+    <!-- allow basic editing -->
+    <before theme-children="/html/head" content="/html/head/script" />
+    <before theme-children="/html/head">
+        <link rel="stylesheet" type="text/css" href="authoring.css"/>
+        <link rel="stylesheet" type="text/css" href="forms.css"/>
+    </before>
+
 
     <!-- Breadcrumbs -->
     <drop css:content="span#breadcrumbs-you-are-here" />
@@ -76,6 +88,7 @@
 
 
     <!-- plone.app.toolbar -->
+<!--
     <before theme-children="/html/body" content="//div[@data-iframe='plone-toolbar']" />
     <before theme-children="/html/head">
         <link rel="stylesheet" type="text/css" href="++resource++plone.app.widgets.css"/>
@@ -86,6 +99,7 @@
         <script type="text/javascript" src="++resource++plone.app.toolbar.js"></script>
         <script type="text/javascript" src="++resource++plone.app.widgets.js"></script>
     </before>
+-->
 
     <!-- Photo Gallery images -->
     <drop css:theme="ul.thumbnails:last-child" />
