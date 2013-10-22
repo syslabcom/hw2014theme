@@ -612,7 +612,7 @@ color: #B1B3B4;
 #content li{
 	margin-bottom: 1em;
 	}
-	
+
 #content a{
 	text-decoration: underline;
 	}
@@ -835,7 +835,7 @@ color: #B1B3B4;
 	}
 
 #content-image{
-	
+
 	font-family: verdana;
 	font-size: 80%;
 	line-height: 130%;
@@ -863,7 +863,7 @@ color: #B1B3B4;
     margin-top: 7px;
     min-height: 35px;
     padding: 0 0 8px 0;
-	
+
 }
 
 .focalpoints-menu ul li {
@@ -933,9 +933,9 @@ color: #B1B3B4;
 	width: 20px;
 	height: 20px;
 	}
-	
-	
-	
+
+
+
 /************Event listing**************/
 
 .vevent {
@@ -1002,4 +1002,57 @@ color: #B1B3B4;
 .event_listing nav ul li a {
   border: medium none;
   display: inline-block;
+}
+
+
+/******* Allow basic editing, copy some styles from Plone *******/
+
+
+#contentext dl.error {
+    border: 1px solid #ff0000;
+    padding: 0;
+}
+
+#contentext dl.error > dt{
+    background-color: #DD0000;
+}
+#contentext dl.portalMessage dt {
+    color: #FFFFFF;
+    float: left;
+    font-weight: bold;
+    line-height: 1.25em;
+    margin: 0 0.5em 0 0;
+    padding: 0.5em 0.75em;
+}
+#contentext .error > dd {
+    background-color: #FFDDCC;
+    padding: 0.5em;
+    line-height: 1.25em;
+}
+
+#contentext fieldset div.fieldErrorBox {
+    font-weight: bold;
+}
+
+#content #contentext .field input[type="text"][name$=".title"] {
+    font-size: 1.4em;
+}
+
+#contentext fieldset label {
+    font-weight: bold;
+    display: inline;
+}
+
+#contentext fieldset input[type="radio"] {
+    margin-right: 0.5em;
+}
+
+#content div.field label span.required:after {
+    color: #FF0000;
+    content: "■";
+    padding-left: 0.2em;
+}
+
+#content div.field span.required:after {
+    content: none;
 }
