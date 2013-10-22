@@ -1056,3 +1056,10 @@ color: #B1B3B4;
 #content div.field span.required:after {
     content: none;
 }
+
+#contentext fieldset .label {
+    background-color: #ffffff;
+    color: #505152;
+    font-size: 100%;
+
+}
