@@ -22,6 +22,7 @@
     <before theme-children="/html/head">
         <link rel="stylesheet" type="text/css" href="authoring.css"/>
         <link rel="stylesheet" type="text/css" href="forms.css"/>
+        <link rel="stylesheet" type="text/css" href="++resource++plone.formwidget.contenttree/contenttree.css"/>
     </before>
 
 
