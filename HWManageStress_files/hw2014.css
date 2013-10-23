@@ -1091,3 +1091,8 @@ color: #B1B3B4;
 #introducction #intronavigation .documentDescription {
     display: none;
 }
+
+/*** clear floats for every new tileItem, needed for news display ***/
+.tileItem {
+    clear: both;
+}
