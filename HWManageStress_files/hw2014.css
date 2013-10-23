@@ -1086,3 +1086,8 @@ color: #B1B3B4;
 #content .documentDescription{
     font-weight: bold;
 }
+
+/*** Hide description on section overview ***/
+#introducction #intronavigation .documentDescription {
+    display: none;
+}
