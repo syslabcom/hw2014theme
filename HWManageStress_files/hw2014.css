@@ -616,6 +616,9 @@ color: #B1B3B4;
 #content a{
 	text-decoration: underline;
 	}
+#content .partners-menu a{
+    text-decoration: none;
+}
 
 #more-content{
 	background: #efefef;
