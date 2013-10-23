@@ -4,10 +4,6 @@
 
     <theme href="HWManageStress2.htm" css:if-content="body.template-hw2014_front_page"/>
     <theme href="HWManageStressContent.htm" css:if-content="body.section-intro"/>
-    <theme href="HWManageStressSubContent.htm" css:if-content="body.subsection" />
-    <theme href="HWManageStressSubContent2images.htm" css:if-content="body.two-images" />
-    <theme href="HWManageStressSubContentPhotoGalery.htm" css:if-content="body.template-atct_album_view" />
-    <theme href="HWManageStressSubContentFullFullText.htm" css:if-content="body.full-width" />
     <rules css:if-content="body.template-edit">
         <theme href="HWManageStressSubContentFullFullText.htm" css:if-content="body.portaltype-osha-hwccontent-organisation" />
         <theme href="HWManageStressSubContentFullFullText.htm" css:if-content="body.portaltype-osha-hwccontent-focalpoint" />
@@ -16,6 +12,10 @@
         <theme href="HWManageStressSubContentPartners.htm" css:if-content="body.portaltype-osha-hwccontent-organisation" />
         <theme href="HWManageStressSubContentFocalPoints.htm" css:if-content="body.portaltype-osha-hwccontent-focalpoint" />
     </rules>
+    <theme href="HWManageStressSubContent2images.htm" css:if-content="body.two-images" />
+    <theme href="HWManageStressSubContentPhotoGalery.htm" css:if-content="body.template-atct_album_view" />
+    <theme href="HWManageStressSubContentFullFullText.htm" css:if-content="body.full-width" />
+    <theme href="HWManageStressSubContent.htm" css:if-content="body.subsection" />
 
     <!-- default is full width -->
     <theme href="HWManageStressSubContentFullFullText.htm" css:if-content="div#visual-portal-wrapper" />
