@@ -8,7 +8,9 @@
     <theme href="HWManageStressSubContent2images.htm" css:if-content="body.two-images" />
     <theme href="HWManageStressSubContentPhotoGalery.htm" css:if-content="body.template-atct_album_view" />
     <theme href="HWManageStressSubContentFullFullText.htm" css:if-content="body.full-width" />
+    <theme href="HWManageStressSubContentFullFullText.htm" css:if-content="body.portaltype-osha-hwccontent-organisation.template-edit" />
     <theme href="HWManageStressSubContentPartners.htm" css:if-content="body.portaltype-osha-hwccontent-organisation" />
+    <theme href="HWManageStressSubContentFullFullText.htm" css:if-content="body.portaltype-osha-hwccontent-focalpoint.template-edit" />
     <theme href="HWManageStressSubContentFocalPoints.htm" css:if-content="body.portaltype-osha-hwccontent-focalpoint" />
 
     <!-- default is full width -->
