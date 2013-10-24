@@ -75,7 +75,7 @@
     <replace css:theme="ul#contentnav" css:content="dl.portletNavigationTree ul"/>
 
     <!-- Frontpage banner -->
-    <replace  css:if-content="body.template-hw2014_front_page" css:theme-children="div#banner" css:content="div#banner"/>
+    <replace  css:if-content="body.template-hw2014_front_page" css:theme-children="div#banner" css:content-children="div#banner"/>
 
     <!-- Frontpage news-events -->
     <replace  css:if-content="body.template-hw2014_front_page" css:theme-children="div.news-events" css:content="div.news-events"/>
