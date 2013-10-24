@@ -304,12 +304,13 @@ h1{
 	}
 
 .banner-text1 p{
-	font-size: 130%;
+	font-size: 140%;
+	line-height: 160%;
 	text-align: right;
-	color: #ABC600;
+	color: #333;
 	font-family: verdana;
 	font-style: italic;
-	margin-top: 10px;
+	margin-top: 20px;
 
 	}
 .banner-text h2{
@@ -352,6 +353,7 @@ h1{
 	font-size: 1.3em;
 	line-height: 140%;
 	margin: 0 0 20px 0;
+	height: 52px;
 	}
 
 .news-events .item img{
@@ -365,7 +367,7 @@ h1{
 .databox {
 	background:#ABC600;
 	color: #fff;
-	margin: 5px 10px 15px 0;
+	margin: 0 10px 15px 0;
 	width: 120px;
 	height: 125px;
 	padding: 0 5px 5px 5px;
