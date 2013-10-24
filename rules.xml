@@ -101,6 +101,7 @@
     <replace css:theme-children="div#frontpage-focalpoints" css:content-children="div#frontpage-focalpoints" />
 
 
+    <before css:theme-children="div#content" css:content="div#manage_organisation" css:if-content="body.portaltype-osha-hwccontent-organisation" />
     <!-- plone.app.toolbar -->
 <!--
     <before theme-children="/html/body" content="//div[@data-iframe='plone-toolbar']" />

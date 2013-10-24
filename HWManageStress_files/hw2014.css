@@ -1092,6 +1092,19 @@ color: #B1B3B4;
     font-weight: bold;
 }
 
+/*** management viewlet for the campaign partners ***/
+#content #manage_organisation {
+    border: 2px solid #ABC600;
+    padding: 1em;
+    margin: 0.5em 0;
+}
+
+#content p.callout {
+    background: #eeeeee;
+    padding: 1em;
+    border-left: 1em solid #cccccc;
+}
+
 /*** Hide description on section overview ***/
 #introducction #intronavigation .documentDescription {
     display: none;
