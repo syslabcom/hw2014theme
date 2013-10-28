@@ -653,7 +653,7 @@ color: #B1B3B4;
 }
 
 #content-image img{
-	margin-bottom: 1em;
+	margin-bottom: 2em;
 	font-family: verdana;
 	font-size: 90%;
 }
@@ -1073,7 +1073,7 @@ color: #B1B3B4;
 
 #content img.tileImage, #content div.newsImageContainer {
     float: right;
-    margin: 0 1em 0.5em;
+    margin: 0 1em;
 }
 
 #content div.newsImageContainer p.discreet {
@@ -1090,6 +1090,7 @@ color: #B1B3B4;
 
 #content .documentDescription{
     font-weight: bold;
+	margin-bottom: 2em;
 }
 
 /*** management viewlet for the campaign partners ***/
@@ -1114,3 +1115,30 @@ color: #B1B3B4;
 .tileItem {
     clear: both;
 }
+
+
+/**news and events***************/
+
+
+.tileItem , .vevent{
+    padding: 1em 0;
+	border-bottom: 1px solid #B1B3B4;
+}
+
+.tileItem p{
+   margin:0;
+}
+
+#content h2.tileHeadline, .vevent h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 0 10px;
+}
+#content h2.tileHeadline a, .vevent h2 a {
+    text-decoration: none;
+}
+/*
+p.tileFooter{
+font-size: 80%;
+margin-top: 16px;
+}*/
