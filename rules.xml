@@ -69,6 +69,8 @@
     <!-- Content type -->
     <after css:theme-children="div#introtext" css:content-children="div#introtext"/>
     <after css:theme-children="div#intronavigation" css:content-children="div#intronavigation"/>
+    <!-- Contact Form -->
+    <after css:theme-children="div#contentext" css:content="div#descriptionContactForm"/>
     <!-- SubContent type -->
     <after css:theme-children="div#contentext" css:content-children="div#content-core"/>
 
