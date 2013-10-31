@@ -1043,7 +1043,8 @@ color: #B1B3B4;
     font-size: 1.4em;
 }
 
-#contentext fieldset label {
+#contentext fieldset label,
+#contentext .field label {
     font-weight: bold;
     display: inline;
 }
