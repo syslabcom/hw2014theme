@@ -46,6 +46,7 @@
     <replace css:theme-children="div#language a.dropdown-toggle" css:content-children="ul#portal-languageselector li.currentLanguage a" />
 
     <!-- Search form -->
+    <drop css:content="form.searchPage .actionMenu"/>
     <copy css:theme="form.form-search" css:content="div#portal-searchbox form" attributes="action"/>
 
     <!-- Navigation tabs -->

@@ -1143,3 +1143,43 @@ p.tileFooter{
 font-size: 80%;
 margin-top: 16px;
 }*/
+
+
+/*** Search results ***/
+#searchform {
+    line-height: 1.5em;
+}
+
+#searchform input.searchButton {
+    margin-bottom: 10px;
+}
+
+#searchform #search-field {
+    border: none;
+}
+
+#searchform h1.documentFirstHeading {
+    display: none;
+}
+
+#searchform cite {
+    font-style: italic;
+}
+
+#searchform dt {
+    float: none;
+}
+#searchform dd {
+    margin-bottom: 10px;
+    line-height: 150%;
+}
+
+#searchform .row {
+    margin-left: 0px;
+}
+
+#content .discreet {
+    color: #666666;
+    font-size: 85%;
+    font-weight: normal;
+}
