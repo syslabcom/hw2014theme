@@ -22,10 +22,12 @@
     <!-- default is full width -->
     <theme href="HWManageStressSubContentFullFullText.htm" css:if-content="div#visual-portal-wrapper" />
 
+    <!-- head stuff -->
     <replace theme="/html/head/meta[@name='description']" content="/html/head/meta[@name='description']"/>
     <replace theme="/html/head/base" content="/html/head/base"/>
     <replace theme="/html/head/title" content="/html/head/title"/>
     <replace css:theme="#logo-container" css:content="#logo-container"/>
+    <after theme-children="/html/head" css:content="link[rel='home']"/>
 
     <!-- allow basic editing -->
     <before theme-children="/html/head" content="/html/head/script" />
