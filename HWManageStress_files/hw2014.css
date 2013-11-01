@@ -1185,3 +1185,8 @@ margin-top: 16px;
     font-size: 85%;
     font-weight: normal;
 }
+
+/*** folder contents ***/
+table.listing td, table.listing th {
+    padding: 0.5em 1em;
+}
