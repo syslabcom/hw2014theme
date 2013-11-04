@@ -97,7 +97,9 @@
 
     <!-- Section intro image -->
     <replace css:theme-children="div#intro-image" css:content-children="div#intro-image" />
-	<drop css:content="body.section-intro div.documentDescription" />
+    <!-- drop description, will only be shown in HTML header -->
+    <drop css:content="body.section-intro div.documentDescription" />
+    <drop css:content="body.subsection div.documentDescription" />
 
     <!-- SubSection image -->
     <replace css:theme-children="div#content-image" css:content-children="div#sectionImage" />
