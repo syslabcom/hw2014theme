@@ -107,8 +107,10 @@
     <!-- Focal point listing -->
     <replace css:theme-children="div#frontpage-focalpoints" css:content-children="div#frontpage-focalpoints" />
 
-
+    <!-- Add simple editing viewlet on Organisation -->
     <before css:theme-children="div#content" css:content="div#manage_organisation" css:if-content="body.portaltype-osha-hwccontent-organisation" />
+    <!-- Add simple editing viewlet on Event -->
+    <before css:theme-children="div#content" css:content="div#manage_organisation" css:if-content="body.portaltype-plone-app-event-dx-event" />
     <!-- plone.app.toolbar -->
 <!--
     <before theme-children="/html/body" content="//div[@data-iframe='plone-toolbar']" />
