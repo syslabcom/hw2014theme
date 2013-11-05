@@ -1211,3 +1211,9 @@ margin-top: 16px;
 table.listing td, table.listing th {
     padding: 0.5em 1em;
 }
+
+/*** contact form ***/
+form#feedback_form input[type="text"] {
+    display: block;
+}
+
