@@ -1138,6 +1138,10 @@ color: #B1B3B4;
     clear: both;
 }
 
+/** publications**/
+#content .publication img.tileImage {
+    max-height: 100px;
+}
 
 /**news and events***************/
 .tileItem, .vevent {
@@ -1148,7 +1152,6 @@ color: #B1B3B4;
 .tileItem p{
    margin:0;
 }
-
 #content h2.tileHeadline, .vevent h2 {
     font-size: 18px;
     line-height: 24px;
