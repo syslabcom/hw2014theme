@@ -17,14 +17,18 @@
     <theme href="HWManageStressContentPartners.htm" css:if-content="body.template-document_organisations_view" />
     <theme href="HWManageStressContentFocalPoints.htm" css:if-content="body.template-document_focalpoints_view" />
     <theme href="HWManageStressSubContentFullFullText.htm" css:if-content="body.full-width" />
+    <theme href="HWManageStressSubContentMaterial.htm" css:if-content="body.materials-view" />
     <theme href="HWManageStressSubContent.htm" css:if-content="body.subsection" />
 
     <!-- default is full width -->
     <theme href="HWManageStressSubContentFullFullText.htm" css:if-content="div#visual-portal-wrapper" />
 
+    <!-- head stuff -->
+    <replace theme="/html/head/meta[@name='description']" content="/html/head/meta[@name='description']"/>
     <replace theme="/html/head/base" content="/html/head/base"/>
     <replace theme="/html/head/title" content="/html/head/title"/>
     <replace css:theme="#logo-container" css:content="#logo-container"/>
+    <after theme-children="/html/head" css:content="link[rel='home']"/>
 
     <!-- allow basic editing -->
     <before theme-children="/html/head" content="/html/head/script" />
@@ -45,6 +49,7 @@
     <replace css:theme-children="div#language a.dropdown-toggle" css:content-children="ul#portal-languageselector li.currentLanguage a" />
 
     <!-- Search form -->
+    <drop css:content="form.searchPage .actionMenu"/>
     <copy css:theme="form.form-search" css:content="div#portal-searchbox form" attributes="action"/>
 
     <!-- Navigation tabs -->
@@ -68,6 +73,8 @@
     <!-- Content type -->
     <after css:theme-children="div#introtext" css:content-children="div#introtext"/>
     <after css:theme-children="div#intronavigation" css:content-children="div#intronavigation"/>
+    <!-- Contact Form -->
+    <after css:theme-children="div#contentext" css:content="div#descriptionContactForm"/>
     <!-- SubContent type -->
     <after css:theme-children="div#contentext" css:content-children="div#content-core"/>
 
@@ -91,7 +98,9 @@
 
     <!-- Section intro image -->
     <replace css:theme-children="div#intro-image" css:content-children="div#intro-image" />
-	<drop css:content="body.section-intro div.documentDescription" />
+    <!-- drop description, will only be shown in HTML header -->
+    <drop css:content="body.section-intro div.documentDescription" />
+    <drop css:content="body.subsection div.documentDescription" />
 
     <!-- SubSection image -->
     <replace css:theme-children="div#content-image" css:content-children="div#sectionImage" />
@@ -101,8 +110,9 @@
     <!-- Focal point listing -->
     <replace css:theme-children="div#frontpage-focalpoints" css:content-children="div#frontpage-focalpoints" />
 
+    <!-- Organisation management viewlet -->
+    <before css:theme-children="div#content" css:content="div#manage_organisation" />
 
-    <before css:theme-children="div#content" css:content="div#manage_organisation" css:if-content="body.portaltype-osha-hwccontent-organisation" />
     <!-- plone.app.toolbar -->
 <!--
     <before theme-children="/html/body" content="//div[@data-iframe='plone-toolbar']" />

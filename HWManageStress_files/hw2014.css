@@ -948,8 +948,7 @@ color: #B1B3B4;
 }
 
 .vevent div.cal_date {
-	background: none repeat scroll 0 0 #B1B3B4;
-	border-radius: 20px 20px 20px 20px;
+	background: none repeat scroll 0 0 #ABC600;
 	color: #FFFFFF;
 	border: medium none;
 	float: left;
@@ -960,6 +959,11 @@ color: #B1B3B4;
 	margin: -0.3em 1em 1.3em 0;
 	padding: 15px;
 	text-transform: uppercase;
+}
+
+.vevent div.cal_info {
+	margin-left: 8em;
+	min-height: 86px;
 }
 
 .vevent span.cal_wkday {
@@ -984,8 +988,25 @@ color: #B1B3B4;
   display: none;
 }
 
-.vevent .metadata {
-  display: none;
+.vevent .horizontal.metadata li:after {
+    content: " —";
+}
+.vevent .horizontal.metadata li:last-child:after {
+    content: "";
+}
+#content .vevent div.documentByLine {
+    display: block;
+    font-weight: bold;
+    color: #666666;
+}
+#content .vevent abbr {
+    cursor: default;
+}
+#content .vevent ul.horizontal li {
+    display: inline-block;
+    line-height: 1.5em;
+    list-style-image: none;
+    list-style-type: none;
 }
 
 .event_listing nav ul {
@@ -1043,7 +1064,8 @@ color: #B1B3B4;
     font-size: 1.4em;
 }
 
-#contentext fieldset label {
+#contentext fieldset label,
+#contentext .field label {
     font-weight: bold;
     display: inline;
 }
@@ -1118,11 +1140,9 @@ color: #B1B3B4;
 
 
 /**news and events***************/
-
-
-.tileItem , .vevent{
+.tileItem, .vevent {
     padding: 1em 0;
-	border-bottom: 1px solid #B1B3B4;
+    border-bottom: 1px solid #B1B3B4;
 }
 
 .tileItem p{
@@ -1137,8 +1157,63 @@ color: #B1B3B4;
 #content h2.tileHeadline a, .vevent h2 a {
     text-decoration: none;
 }
+#content .tileItem p.description{
+    font-weight: bold;
+
+}
 /*
 p.tileFooter{
 font-size: 80%;
 margin-top: 16px;
 }*/
+
+
+/*** Search results ***/
+#searchform {
+    line-height: 1.5em;
+}
+
+#searchform input.searchButton {
+    margin-bottom: 10px;
+}
+
+#searchform #search-field {
+    border: none;
+}
+
+#searchform h1.documentFirstHeading {
+    display: none;
+}
+
+#searchform cite {
+    font-style: italic;
+}
+
+#searchform dt {
+    float: none;
+}
+#searchform dd {
+    margin-bottom: 10px;
+    line-height: 150%;
+}
+
+#searchform .row {
+    margin-left: 0px;
+}
+
+#content .discreet {
+    color: #666666;
+    font-size: 85%;
+    font-weight: normal;
+}
+
+/*** folder contents ***/
+table.listing td, table.listing th {
+    padding: 0.5em 1em;
+}
+
+/*** contact form ***/
+form#feedback_form input[type="text"] {
+    display: block;
+}
+
