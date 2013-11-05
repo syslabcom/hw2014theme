@@ -1140,6 +1140,10 @@ color: #B1B3B4;
 #content h2.tileHeadline a, .vevent h2 a {
     text-decoration: none;
 }
+#content .tileItem p.description{
+    font-weight: bold;
+
+}
 /*
 p.tileFooter{
 font-size: 80%;
