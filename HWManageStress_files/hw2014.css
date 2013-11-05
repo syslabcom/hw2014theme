@@ -988,8 +988,25 @@ color: #B1B3B4;
   display: none;
 }
 
-.vevent .metadata {
-  display: none;
+.vevent .horizontal.metadata li:after {
+    content: " —";
+}
+.vevent .horizontal.metadata li:last-child:after {
+    content: "";
+}
+#content .vevent div.documentByLine {
+    display: block;
+    font-weight: bold;
+    color: #666666;
+}
+#content .vevent abbr {
+    cursor: default;
+}
+#content .vevent ul.horizontal li {
+    display: inline-block;
+    line-height: 1.5em;
+    list-style-image: none;
+    list-style-type: none;
 }
 
 .event_listing nav ul {
