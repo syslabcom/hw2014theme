@@ -761,10 +761,20 @@ color: #B1B3B4;
 .material-item .span6{
 	text-align: right;
 }
+.material-item.publication .span6 {
+    text-align: left;
+}
+.material-item.publication .span4 {
+    text-align: right;
+}
 
 .material-info, .material-icon {
 	position: absolute;
 	bottom:0;
+}
+.publication .material-info, .publication .material-icon {
+    bottom: -1em;
+    margin-bottom: 1em;
 }
 
 .material-info {
@@ -1139,7 +1149,7 @@ color: #B1B3B4;
 }
 
 /** publications**/
-#content .publication img.tileImage {
+#content #material img {
     max-height: 100px;
 }
 
