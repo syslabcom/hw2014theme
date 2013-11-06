@@ -1170,7 +1170,7 @@ color: #B1B3B4;
 #content h2.tileHeadline a, .vevent h2 a {
     text-decoration: none;
 }
-#content .tileItem p.description{
+#content .tileItem .description{
     font-weight: bold;
 
 }
