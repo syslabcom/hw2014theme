@@ -113,6 +113,9 @@
     <!-- Organisation management viewlet -->
     <before css:theme-children="div#content" css:content="div#manage_organisation" />
 
+    <!-- materials view -->
+    <replace css:theme-children="div#material" css:content-children="div#material" />
+
     <!-- plone.app.toolbar -->
 <!--
     <before theme-children="/html/body" content="//div[@data-iframe='plone-toolbar']" />
