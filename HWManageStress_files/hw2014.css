@@ -1149,8 +1149,8 @@ color: #B1B3B4;
 }
 
 /** publications**/
-#content #material img {
-    max-height: 100px;
+#content #material .publication img {
+    max-height: 105px;
 }
 
 /**news and events***************/
