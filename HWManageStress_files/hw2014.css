@@ -1209,6 +1209,7 @@ dl.error > dt,
     margin-right: 0.5em;
 }
 
+#national-partner-application-form label span.required:after,
 #content div.field label span.required:after {
     color: #FF0000;
     content: "■";
@@ -1355,3 +1356,12 @@ form#feedback_form input[type="text"] {
     display: block;
 }
 
+/*** partner certificate form ***/
+#national-partner-application-form input[type="text"],
+#national-partner-application-form .checkList label {
+  display: block;
+}
+
+#national-partner-application-form .checkList label {
+  margin-top: 0;
+}
