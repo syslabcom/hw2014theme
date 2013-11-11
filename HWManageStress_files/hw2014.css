@@ -1043,6 +1043,128 @@ color: #B1B3B4;
 
 /******* Allow basic editing, copy some styles from Plone *******/
 
+/* @group Status messages */
+
+dl.portalMessage,
+div.attention,
+div.caution,
+div.danger,
+div.error,
+div.hint,
+div.important,
+div.note,
+div.tip,
+div.warning {
+    margin: 1em 0;
+    font-size: 80%;
+    border: 1px solid #996;
+    background-color: #ffffe3;
+    clear:both;
+}
+dl.portalMessage a,
+#content dl.portalMessage a,
+div.attention a,
+div.caution a,
+div.danger a,
+div.error a,
+div.hint a,
+div.important a,
+div.note a,
+div.tip a,
+div.warning a,
+#content div.attention a,
+#content div.caution a,
+#content div.danger a,
+#content div.error a,
+#content div.hint a,
+#content div.important a,
+#content div.note a,
+#content div.tip a,
+#content div.warning a {
+    color: black;
+    border-bottom: 1px solid #888;
+}
+dl.portalMessage dt,
+div > .admonition-title {
+    background-color: #996;
+    font-weight: bold;
+    float: left;
+    margin: 0 0.5em 0 0;
+    padding: 0.5em 0.75em;
+    color: White;
+    line-height: 1.25em;
+}
+dl.portalMessage dd,
+div.attention > .last,
+div.caution > .last,
+div.danger > .last,
+div.error > .last,
+div.hint > .last,
+div.important > .last,
+div.note > .last,
+div.tip > .last,
+div.warning > .last {
+    padding: 0.5em 0.5em;
+    margin: 0;
+    line-height: 1.25em;
+}
+
+dl.warning {
+    border-color: #d80;
+}
+dl.warning > dt,
+.warning > .admonition-title {
+    background-color: #d80;
+}
+
+dl.error {
+    border-color: red;
+}
+dl.error > dt,
+.error > .admonition-title {
+    background-color: #d00;
+}
+.warning > dd,
+.warning > .last {
+    background-color: #fd7;
+}
+.error > dd,
+.error > .last {
+    background-color: #fdc;
+}
+
+/* Additional specificity for when status is shown inside #content */
+#content dl.portalMessage,
+#content div.attention a,
+#content div.caution a,
+#content div.danger a,
+#content div.error a,
+#content div.hint a,
+#content div.important a,
+#content div.note a,
+#content div.tip a,
+#content div.warning a {
+    font-size: 100%;
+}
+#content dl.portalMessage dt,
+#content div > .admonition-title {
+    margin: 0 0.5em 0 0;
+    padding: 0.5em 0.75em;
+}
+#content dl.portalMessage dd,
+#content div.attention > .last,
+#content div.caution > .last,
+#content div.danger > .last,
+#content div.error > .last,
+#content div.hint > .last,
+#content div.important > .last,
+#content div.note > .last,
+#content div.tip > .last,
+#content div.warning > .last {
+    margin: 0;
+}
+
+/* @end */
 
 #contentext dl.error {
     border: 1px solid #ff0000;
