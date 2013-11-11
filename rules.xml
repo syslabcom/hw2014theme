@@ -58,6 +58,9 @@
     <!-- Footer actions -->
     <replace css:theme-children="div#footer ul" css:content-children="ul#portal-siteactions"/>
 
+    <!-- Portal messages -->
+    <before css:theme-children="#contentext" css:content="dl.portalMessage"/>
+
     <!-- Content title -->
     <!-- Content type-->
     <replace css:theme="div#introducction h1" css:content="h1.documentFirstHeading"/>
