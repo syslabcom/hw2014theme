@@ -8,6 +8,7 @@
         <theme href="HWManageStressSubContentFullFullText.htm" css:if-content="body.portaltype-osha-hwccontent-organisation" />
         <theme href="HWManageStressSubContentFullFullText.htm" css:if-content="body.portaltype-osha-hwccontent-focalpoint" />
     </rules>
+    <theme href="HWManageStressSubContentFullFullText.htm" css:if-content="body.template-osha-hwccontent-organisation" />
     <rules css:if-not-content="body.template-edit">
         <theme href="HWManageStressSubContentPartners.htm" css:if-content="body.portaltype-osha-hwccontent-organisation" />
         <theme href="HWManageStressSubContentFocalPoints.htm" css:if-content="body.portaltype-osha-hwccontent-focalpoint" />
