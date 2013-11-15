@@ -1211,7 +1211,7 @@ dl.error > dt,
     margin-right: 0.5em;
 }
 
-#national-partner-application-form label span.required:after,
+#get-campaign-certificate label span.required:after,
 #content div.field label span.required:after {
     color: #FF0000;
     content: "■";
@@ -1359,11 +1359,11 @@ form#feedback_form input[type="text"] {
 }
 
 /*** partner certificate form ***/
-#national-partner-application-form input[type="text"],
-#national-partner-application-form .checkList label {
+#get-campaign-certificate input[type="text"],
+#get-campaign-certificate .checkList label {
   display: block;
 }
 
-#national-partner-application-form .checkList label {
+#get-campaign-certificate .checkList label {
   margin-top: 0;
 }
