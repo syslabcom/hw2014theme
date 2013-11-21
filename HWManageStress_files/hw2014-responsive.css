@@ -5,6 +5,11 @@
     font-size: 100%;
 
 }
+
+.banner-text1 {
+    padding: 10px 20px 0 70px;
+}
+
 }
 
 @media (max-width: 1200px) {
@@ -101,13 +106,14 @@
 .navbar .nav > li > a {
     border-right: 0;
 	height: auto;
-	 padding: 15px 15px; 
+	 padding: 5px; 
     margin: 0;
   
 }
 
 .nav-collapse .nav > li > a, .nav-collapse .dropdown-menu a {
-    padding: 15px 15px;
+    padding: 5px 5px 5px 30px;
+	text-transform: none;
 }
 
 
@@ -157,6 +163,18 @@
   color: #ffffff;
   background-color: #5d6b01 !important;
   *background-color: #5d6b01;
+}
+
+
+.navbar .nav > li > a {
+    background: none;
+	padding: 10px;
+}
+
+
+.dropdown-menu > li > a {
+    white-space: normal;
+	line-height: 18px;
 }
 
 }
