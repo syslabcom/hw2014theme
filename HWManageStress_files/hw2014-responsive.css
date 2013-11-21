@@ -252,8 +252,17 @@
 	
 #footer {
 	padding-bottom: 1em;
-	
 }
+
+
+.tagline1 {
+    padding: 10px 5px 0 5px;
+	font-size: 110%;
+}
+
+.supported{
+	margin-bottom: 20px;
+	}
 /*
 #footer ul {
 	margin: 0.5em auto 0;
