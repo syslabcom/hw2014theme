@@ -11,13 +11,6 @@ h1{
 	/*text-align: center;*/
 }
 
-#footer {
-	background: url(../HWManageStress_files/images/footer.gif) no-repeat bottom center #ABC600;
-	border-top: 10px solid #DDE898;
-	min-height: 120px;
-	text-align: center;
-}
-
 #header-wrapper, #columns-container, #menu .navbar{
     margin: 0 auto;
     max-width: 1100px;
@@ -110,23 +103,13 @@ h1{
 	}
 
 #tagline{
-	padding: 43px 0 20px 0px;
+	padding: 67px 0 15px 180px;
 	font-family: 'PT Sans', sans-serif;
 	color: #003298;
 	font-weight: bold;
-	font-size: 110%;
+	font-size: 130%;
 	line-height: 130%;
 }
-
-#tagline p{
-	margin:0;
-}
-
-.tagline1{
-	font-size: 100%;
-	padding-left: 30px;
-	color: #505152;
-	}
 
 
 /**plone class**/
@@ -498,8 +481,39 @@ h1{
 
 	/******footer*******/
 
+
+.tagline1 {
+    color: #FFFFFF;
+    font-size: 130%;
+    font-weight: normal;
+    padding: 10px 5px 20px;
+}
+	
+#footer {
+	background: url(../HWManageStress_files/images/footer.gif) no-repeat bottom center #ABC600;
+	border-top: 10px solid #DDE898;
+	padding-bottom: 7em;
+	/*min-height: 120px;*/
+	/*text-align: center;*/
+}
+
+.social{
+	float: right;
+	margin-right: 20px;
+}
+		
+.social li{
+	float: left;
+	margin: 5px;
+}
+	
+#footercontainer{
+	width: 1100px;
+	margin: 0 auto;
+	}
+	
 #footer ul {
-	margin: 2em auto 0;
+	margin: 1em auto 0;
 	display: inline-block
 }
 
