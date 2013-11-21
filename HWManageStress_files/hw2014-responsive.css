@@ -184,6 +184,9 @@
 
 
 
+#contentext {
+    padding: 0;
+}
 
 #logo-container .offset2{
   margin: 0 0 0 !important;
@@ -263,21 +266,7 @@
 .supported{
 	margin-bottom: 20px;
 	}
-/*
-#footer ul {
-	margin: 0.5em auto 0;
-}
 
-
-#footer .social{
-	float: none;	
-	}
-
-	
-#footer  .nav-pills > li {
-    float: none;
-}
-*/
 .material-item .span6{
 	text-align: left;
 }
@@ -287,8 +276,42 @@
     position: relative;
 }
 
+/************events*********************************/
+
+.vevent div.cal_date {
+    display: inline-block;
+    float: none;
+}
 
 
+.vevent div.cal_info {
+    margin-left:0;
+    min-height: 86px;
+}
+
+
+dl.portletFollowUs dd {
+    margin: 0;
+    padding: 0.5em;
+}
+dd {
+    line-height: 1.5em;
+    margin-bottom: 1em;
+}
+dl.portletFollowUs {
+    text-align: center;
+}
+#portal-column-two {
+    font-size: 85%;
+}
+body {
+    color: #191919;
+    font: 80% Verdana,Helvetica,"Lucida Grande",Lucida,Arial,sans-serif;
+}
+.news-events .item h3 {
+    min-height:auto;
+   
+}
 
 }
 

@@ -336,7 +336,7 @@ h1{
 	font-size: 1.3em;
 	line-height: 140%;
 	margin: 0 0 20px 0;
-	height: 52px;
+	min-height: 52px;
 	}
 
 .news-events .item img{
@@ -624,9 +624,9 @@ color: #B1B3B4;
 	color: #fff;
 	font-size: 1.2em;
 	text-transform: uppercase;
-	padding: 2px 20px 0;
+	padding: 10px 20px 8px;
 	margin:1em 0;
-	line-height: 36px;
+	line-height: 120%;
 	}
 
 #content h2{
