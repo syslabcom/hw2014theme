@@ -23,28 +23,28 @@
 	padding-top: 100px;
 	background-size: 50%;
 	}
-	
+
 #banner {
-   
+
 }
 
 #footer {
-   background-size: contain;	
+   background-size: contain;
 }
 
 
 }
-  
-@media (max-width: 979px) {
-  
-  
+
+@media (max-width: 979px) {
+
+
   .hiddenStructure  {
     display: block !important;
 }
 
 #portal-logo {
     width: 140px;
-	
+
 }
 .banner-text, .banner-text1{
 	background: #fff;
@@ -57,13 +57,13 @@
 	border-radius: 0 0 15px 15px;
 	behavior: url(./HWManageStress_files/PIE.htc);
 	}
-	
+
 .banner-text1 img{
 	width: 35%;
 	}
-	
-.banner-text1 p {  
-    font-size: 110%; 
+
+.banner-text1 p {
+    font-size: 110%;
 }
 
 .banner-text h2{
@@ -72,10 +72,10 @@
 	margin-top: 0;
 	margin-bottom: 0px;
 	}
-	
+
 #banner {
-    height: 320px;  
-	
+    height: 320px;
+
 }
 
 
@@ -89,7 +89,7 @@
 .nav-collapse .dropdown-menu a:focus {
     color: #666
   }
-  
+
 .nav-collapse .nav {
     margin: 5px;
 }
@@ -106,9 +106,9 @@
 .navbar .nav > li > a {
     border-right: 0;
 	height: auto;
-	 padding: 5px; 
+	 padding: 5px;
     margin: 0;
-  
+
 }
 
 .nav-collapse .nav > li > a, .nav-collapse .dropdown-menu a {
@@ -134,7 +134,7 @@
 
 .partners-menu .row-fluid .span2 {
     width: 100% !important;
-	
+
 }
 
 .navbar .btn-navbar:hover, .navbar .btn-navbar:focus, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar.disabled, .navbar .btn-navbar[disabled] {
@@ -178,9 +178,14 @@
 }
 
 }
-  
-  
+
+
 @media (max-width: 480px) {
+
+
+#menu ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: inherit;
+}
 
 
 
@@ -191,7 +196,7 @@
 #logo-container .offset2{
   margin: 0 0 0 !important;
   padding: 80px 0 10px;
- 
+
 }
 .form-search {
     display: none;
@@ -237,12 +242,12 @@
 	right:0;
 	height: auto;
 	}
-	
+
 .banner-text1 p{
 	text-align:center;
 	font-size: 125%;
 	}
-	
+
 .banner-text1 img{
 	display: none;
 	}
@@ -252,7 +257,7 @@
 	background: url("../HWManageStress_files/images/toolkit.png") no-repeat scroll center top transparent;
 	background-size: 18%;
 }
-	
+
 #footer {
 	padding-bottom: 1em;
 }
@@ -310,7 +315,7 @@ body {
 }
 .news-events .item h3 {
     min-height:auto;
-   
+
 }
 
 }
