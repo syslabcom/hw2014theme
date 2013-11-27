@@ -58,7 +58,9 @@
     <replace css:theme="ul#portal-globalnav" css:content="ul#portal-globalnav"/>
 
     <!-- Footer actions -->
-    <replace css:theme-children="div#footer ul.footer_actions" css:content-children="ul#portal-siteactions"/>
+    <replace css:theme-children="div#footer ul#footer_actions" css:content-children="ul#portal-siteactions"/>
+    <replace css:theme-children="p#tagline1" css:content-children="p#tagline1" />
+    <replace css:theme-children="p#back_to_osha" css:content-children="p#back_to_osha" />
 
     <!-- Portal messages -->
     <before css:if-content="body.template-get-campaign-certificate" css:theme-children="#contentext" css:content="dl.portalMessage"/>
