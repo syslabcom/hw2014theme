@@ -110,6 +110,7 @@
     <drop css:content="body.subsection div.documentDescription" />
     <drop css:content="body.template-document_focalpoints_view div.documentDescription" />
     <drop css:content="body.template-document_organisations_view div.documentDescription" />
+    <drop css:content="body.full-width div.documentDescription" />
 
     <!-- SubSection image -->
     <replace css:theme-children="div#content-image" css:content-children="div#sectionImage" />
