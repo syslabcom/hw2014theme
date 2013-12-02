@@ -291,7 +291,7 @@ h1{
 	line-height: 160%;
 	text-align: right;
 	color: #333;
-	font-family: verdana;
+	font-family: verdana, sans-serif;
 	font-style: italic;
 	margin-top: 20px;
 
@@ -680,13 +680,13 @@ color: #B1B3B4;
 
 #content-image img{
 	margin-bottom: 2em;
-	font-family: verdana;
+	font-family: verdana, sans-serif;
 	font-size: 90%;
 }
 
 #contentext{
 	padding: 0 20px;
-	font-family: verdana;
+	font-family: verdana, sans-serif;
 	font-size: 90%;
 }
 
@@ -861,7 +861,7 @@ color: #B1B3B4;
 #contentext dt{
 	float: left;
 	display: block;
-	font-family: verdana;
+	font-family: verdana, sans-serif;
 	}
 
 #contentext dl{
@@ -877,7 +877,7 @@ color: #B1B3B4;
 
 #content-image{
 
-	font-family: verdana;
+	font-family: verdana, sans-serif;
 	font-size: 80%;
 	line-height: 130%;
 }
