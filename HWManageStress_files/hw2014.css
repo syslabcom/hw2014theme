@@ -1391,3 +1391,10 @@ form#feedback_form input[type="text"] {
 #get-campaign-certificate .checkList label {
   margin-top: 0;
 }
+
+/* datetime widget fixes */
+
+select.datetime-widget {
+  width: auto;
+}
+
