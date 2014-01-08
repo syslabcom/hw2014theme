@@ -80,11 +80,26 @@
 	  
 	  <div id="daysleft">
 	  <ul>
-	  <li><div class="inner"><span>02</span>weeks</div></li>
-	  <li><div class="inner"><span>13</span>days</div></li>
-	  <li><div class="inner"><span>15</span>hours</div></li>
-	  <li><div class="inner"><span>49</span>minutes</div></li>
-	  <li><div class="inner"><span>49</span>seconds</div></li>
+	  <li><div class="inner weeks_dash">
+	    <span><div class="first digit">0</div>
+	    <div class="second digit">1</div></span>weeks</div>
+	  </li>
+	  <li><div class="inner days_dash">
+	    <span><div class="first digit">5</div>
+	    <div class="second digit">8</div></span>days</div>
+	  </li>
+	  <li><div class="inner hours_dash">
+	    <span><div class="first digit">5</div>
+	    <div class="second digit">8</div></span>hours</div>
+	  </li>
+	  <li><div class="inner minutes_dash">
+	    <span><div class="first digit">5</div>
+	    <div class="second digit">8</div></span>minutes</div>
+	  </li>
+	  <li><div class="inner seconds_dash">
+	    <span><div class="first digit">5</div>
+	    <div class="second digit">9</div></span>seconds</div>
+	  </li>
 	  </ul>
 	  </div>
 	  
@@ -143,7 +158,22 @@
     <script src="HWManageStress_files/bootstrap-collapse.js"></script>
     <script src="HWManageStress_files/bootstrap-carousel.js"></script>
     <script src="HWManageStress_files/bootstrap-typeahead.js"></script>
+    <script src="HWManageStress_files/jquery.lwtCountdown-1.0.js"></script>
 
+    <script language="javascript">
+    jQuery(document).ready(function() {
+	$('#daysleft').countDown({
+	    targetDate: {
+		'day':      18,
+		'month':    4,
+		'year':     2014,
+		'hour':     13,
+		'min':      0,
+		'sec':      50
+	    }
+	});
+    });
+    </script>  
   
 
 </body></html>

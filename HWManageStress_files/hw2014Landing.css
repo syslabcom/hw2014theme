@@ -186,6 +186,14 @@ h1{
 	line-height: 38px;
 	}
 	
+#daysleft .first {
+    float: left;
+}
+
+#daysleft .second {
+    float: right;
+}
+	
 .banner-text-right h3{
 	text-align: center;
 	margin-top: 1em;
