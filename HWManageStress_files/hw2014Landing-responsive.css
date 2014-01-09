@@ -49,14 +49,6 @@
     font-size: 65%;
 }
 
-#daysleft .first {
-    float: left;
-}
-
-#daysleft .second {
-    float: right;
-}
-
 .banner-text-right .item {
     height: 80px;
 }
