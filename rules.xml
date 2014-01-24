@@ -64,6 +64,7 @@
 
     <!-- Portal messages -->
     <before css:if-content="body.template-get-campaign-certificate" css:theme-children="#contentext" css:content="dl.portalMessage"/>
+    <before css:if-content="body.template-document_organisations_view" css:theme-children="#content" css:content="dl.portalMessage"/>
 
     <!-- Content title -->
     <!-- Content type-->
