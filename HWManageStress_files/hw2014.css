@@ -343,6 +343,8 @@ h1{
 	margin:0px 10px 15px 0;
     padding: 0 5px 5px;
     float:left;
+    max-width: 120px;
+    max-height: 125px;
 }
 
 .news-events .item .data{
@@ -494,11 +496,11 @@ h1{
 	font-size: 80%;
 	margin-bottom: 10px;
 	}
-	
+
 .supported a:hover{
 	color:#58585A !important;
 	}
-	
+
 #footer {
 	background: url(../HWManageStress_files/images/footer.gif) no-repeat bottom center #ABC600;
 	border-top: 10px solid #DDE898;
@@ -510,18 +512,18 @@ h1{
 	float: right;
 	margin-right: 20px;
 }
-		
+
 .social li{
 	float: right;
 	margin: 5px;
 }
-	
+
 #footer-container{
 	max-width: 1100px;
 	margin: 0 auto;
 	text-align: left;
 	}
-	
+
 #footer ul {
 	margin: 1em auto 0;
 	display: inline-block
@@ -1258,6 +1260,8 @@ dl.error > dt,
 #content img.tileImage, #content div.newsImageContainer {
     float: right;
     margin: 0 1em;
+    max-width: 120px;
+    max-height: 125px;
 }
 
 #content div.newsImageContainer p.discreet {
