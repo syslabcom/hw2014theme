@@ -294,8 +294,58 @@ h1{
 	font-family: verdana, sans-serif;
 	font-style: italic;
 	margin-top: 20px;
-
 	}
+
+/* language specific customisations */
+body.site-bg .banner-text1 p {
+    font-size: 120%;
+}
+body.site-de .banner-text1 p {
+    font-size: 138%;
+}
+body.site-el .banner-text1 p {
+    font-size: 128%;
+}
+body.site-et .banner-text1 p {
+    font-size: 132%;
+}
+body.site-es .banner-text1 p {
+    font-size: 128%;
+}
+body.site-fi .banner-text1 p {
+    font-size: 131%;
+}
+body.site-hu .banner-text1 p {
+    font-size: 138%;
+}
+body.site-is .banner-text1 p {
+    font-size: 138%;
+}
+body.site-it .banner-text1 p {
+    font-size: 130%;
+}
+body.site-lt .banner-text1 p {
+    font-size: 139%;
+}
+body.site-mt .banner-text1 p {
+    font-size: 129%;
+}
+body.site-nl .banner-text1 p {
+    font-size: 132%;
+}
+body.site-no .banner-text1 p {
+    font-size: 139%;
+}
+body.site-pl .banner-text1 p {
+    font-size: 124%;
+}
+body.site-pt .banner-text1 p {
+    font-size: 130%;
+}
+body.site-ro .banner-text1 p {
+    font-size: 110%;
+}
+
 .banner-text h2{
 	padding-top: 150px;
 	background: url(../HWManageStress_files/images/toolkit.png) no-repeat scroll center top transparent;
