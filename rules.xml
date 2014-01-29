@@ -24,6 +24,10 @@
     <!-- default is full width -->
     <theme href="HWManageStressSubContentFullFullText.htm" css:if-content="div#visual-portal-wrapper" />
 
+    <!-- copy over body classes -->
+    <copy attributes="class" css:content="body" css:theme="body" />
+
+
     <!-- head stuff -->
     <replace theme="/html/head/meta[@name='description']" content="/html/head/meta[@name='description']"/>
     <replace theme="/html/head/base" content="/html/head/base"/>
