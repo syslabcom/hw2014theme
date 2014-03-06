@@ -291,11 +291,61 @@ h1{
 	line-height: 160%;
 	text-align: right;
 	color: #333;
-	font-family: verdana;
+	font-family: verdana, sans-serif;
 	font-style: italic;
 	margin-top: 20px;
-
 	}
+
+/* language specific customisations */
+body.site-bg .banner-text1 p {
+    font-size: 120%;
+}
+body.site-de .banner-text1 p {
+    font-size: 138%;
+}
+body.site-el .banner-text1 p {
+    font-size: 128%;
+}
+body.site-et .banner-text1 p {
+    font-size: 132%;
+}
+body.site-es .banner-text1 p {
+    font-size: 128%;
+}
+body.site-fi .banner-text1 p {
+    font-size: 131%;
+}
+body.site-hu .banner-text1 p {
+    font-size: 138%;
+}
+body.site-is .banner-text1 p {
+    font-size: 138%;
+}
+body.site-it .banner-text1 p {
+    font-size: 130%;
+}
+body.site-lt .banner-text1 p {
+    font-size: 139%;
+}
+body.site-mt .banner-text1 p {
+    font-size: 129%;
+}
+body.site-nl .banner-text1 p {
+    font-size: 132%;
+}
+body.site-no .banner-text1 p {
+    font-size: 139%;
+}
+body.site-pl .banner-text1 p {
+    font-size: 124%;
+}
+body.site-pt .banner-text1 p {
+    font-size: 130%;
+}
+body.site-ro .banner-text1 p {
+    font-size: 110%;
+}
+
 .banner-text h2{
 	padding-top: 150px;
 	background: url(../HWManageStress_files/images/toolkit.png) no-repeat scroll center top transparent;
@@ -343,6 +393,8 @@ h1{
 	margin:0px 10px 15px 0;
     padding: 0 5px 5px;
     float:left;
+    max-width: 120px;
+    max-height: 125px;
 }
 
 .news-events .item .data{
@@ -494,11 +546,11 @@ h1{
 	font-size: 80%;
 	margin-bottom: 10px;
 	}
-	
+
 .supported a:hover{
 	color:#58585A !important;
 	}
-	
+
 #footer {
 	background: url(../HWManageStress_files/images/footer.gif) no-repeat bottom center #ABC600;
 	border-top: 10px solid #DDE898;
@@ -510,18 +562,18 @@ h1{
 	float: right;
 	margin-right: 20px;
 }
-		
+
 .social li{
 	float: right;
 	margin: 5px;
 }
-	
+
 #footer-container{
 	max-width: 1100px;
 	margin: 0 auto;
 	text-align: left;
 	}
-	
+
 #footer ul {
 	margin: 1em auto 0;
 	display: inline-block
@@ -680,13 +732,13 @@ color: #B1B3B4;
 
 #content-image img{
 	margin-bottom: 2em;
-	font-family: verdana;
+	font-family: verdana, sans-serif;
 	font-size: 90%;
 }
 
 #contentext{
 	padding: 0 20px;
-	font-family: verdana;
+	font-family: verdana, sans-serif;
 	font-size: 90%;
 }
 
@@ -861,7 +913,7 @@ color: #B1B3B4;
 #contentext dt{
 	float: left;
 	display: block;
-	font-family: verdana;
+	font-family: verdana, sans-serif;
 	}
 
 #contentext dl{
@@ -877,7 +929,7 @@ color: #B1B3B4;
 
 #content-image{
 
-	font-family: verdana;
+	font-family: verdana, sans-serif;
 	font-size: 80%;
 	line-height: 130%;
 }
@@ -1258,6 +1310,8 @@ dl.error > dt,
 #content img.tileImage, #content div.newsImageContainer {
     float: right;
     margin: 0 1em;
+    max-width: 120px;
+    max-height: 125px;
 }
 
 #content div.newsImageContainer p.discreet {
@@ -1391,3 +1445,10 @@ form#feedback_form input[type="text"] {
 #get-campaign-certificate .checkList label {
   margin-top: 0;
 }
+
+/* datetime widget fixes */
+
+select.datetime-widget {
+  width: auto;
+}
+
