@@ -103,7 +103,8 @@ border-radius: 10px;
 }
 
 #portal-logo {
-	width: 30%;
+	width: 25%;
+    padding-left: 10px;
 }
 
 #tagline.offset2{
@@ -128,87 +129,32 @@ border-radius: 10px;
 }
 
 
-/*
-.form-search {
-    display: none;
-}
-
-
-.navbar-language {
-    padding: 5px 0;
-}
-
-#osha-logo {
-	width: 50%;
-	margin-top: 5px;
-}
-
-
-
-
-#tagline {
-    padding: 55px 0 10px 0px;
-}
-
-.tagline1 {
-    padding-left:0px;
-}
-
-#banner {
-    height: auto;
-}
-
-.banner-image .pull-left{
-	float: none;
-	}
-
-.banner-text, .banner-text1{
-	position: relative;
-	float: left;
-	display: block;
-	width: 100% !important;
-	background: url(../HWManageStress_files/images/bannerCopy.png) no-repeat scroll right top transparent;
-	padding: 0px;
-	margin-top: 0px;
-	line-height: 180%;
-	right:0;
-	height: auto;
-	}
-	
-.banner-text1 p{
-	text-align:center;
-	font-size: 125%;
-	}
-	
-.banner-text1 img{
-	display: none;
-	}
-
-
-.banner-text h2 {
-	background: url("../HWManageStress_files/images/toolkit.png") no-repeat scroll center top transparent;
-	background-size: 18%;
-}
-	
-
-
-#footer ul {
-	margin: 0.5em auto 0;
-}
-
-
-.material-item .span6{
-	text-align: left;
-}
-
-.material-info, .material-icon {
-    bottom: 0;
-    position: relative;
-}
-
 
 }
 
 
+@media (max-width: 320px) {
+
+
+#date span {
+    font-size: 30px;
+}
+
+#daysleft ul li span {
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.banner-text-right .item {  
+    margin-left: 1em;
+}
+
+#daysleft ul li { 
+    padding: 0;  
+    font-size: 60%;
+
+}
+
+}
 
 
