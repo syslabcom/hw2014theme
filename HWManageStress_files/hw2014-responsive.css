@@ -183,6 +183,12 @@
 @media (max-width: 480px) {
 
 
+
+#language .dropdown-menu{   
+    right: 10px;
+    left: auto;
+}
+
 #menu ul.nav li.dropdown:hover > ul.dropdown-menu {
     display: inherit;
 }
@@ -213,7 +219,8 @@
 }
 
 #portal-logo {
-	width: 30%;
+	width: 25%;
+    padding-left: 10px;
 }
 
 
@@ -322,4 +329,20 @@ body {
 
 
 
+@media (max-width: 320px) {
 
+
+#date span {
+    font-size: 30px;
+}
+
+#daysleft ul li span {
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.banner-text-right .item {  
+    margin-left: 1em;
+}
+
+}
