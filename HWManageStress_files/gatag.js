@@ -8,7 +8,9 @@
 //	Thanks to ShoreTel, MerryMan and Colm McBarron
 //
 //	www.goodwebpractices.com
-//	VKI has made changes as indicated below.								
+//	VKI has made changes as indicated below.
+//      garaolaza changed the file to make it work with 
+//      actual async GA code (on 2014 - _gaq based)
 
 if (document.getElementsByTagName) {
         // Initialize external link handlers
@@ -46,7 +48,7 @@ function startListening (obj,evnt,func) {
 function trackMailto (evnt) {
         var href = (evnt.srcElement) ? evnt.srcElement.href : this.href;
         var mailto = "/mailto/" + href.substring(7);
-        if (typeof(pageTracker) == "object") pageTracker._trackPageview(mailto);
+        if (typeof(_gaq) == "object") _gaq.push(['_trackPageview', mailto]);
 }
 
 function trackExternalLinks (evnt) {
@@ -57,5 +59,5 @@ function trackExternalLinks (evnt) {
         var lnk = (e.pathname.charAt(0) == "/") ? e.pathname : "/" + e.pathname;
         if (e.search && e.pathname.indexOf(e.search) == -1) lnk += e.search;
         if (e.hostname != location.host) lnk = "/external/" + e.hostname + lnk;
-        if (typeof(pageTracker) == "object") pageTracker._trackPageview(lnk); 
+        if (typeof(_gaq) == "object") _gaq.push(['_trackPageview', lnk]);
 }
