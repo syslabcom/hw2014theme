@@ -288,6 +288,10 @@
     position: relative;
 }
 
+.partners-menu img {
+    padding: 5px;
+}
+
 /************events*********************************/
 
 .vevent div.cal_date {
@@ -329,20 +333,3 @@ body {
 
 
 
-@media (max-width: 320px) {
-
-
-#date span {
-    font-size: 30px;
-}
-
-#daysleft ul li span {
-    font-size: 35px;
-    line-height: 40px;
-}
-
-.banner-text-right .item {  
-    margin-left: 1em;
-}
-
-}
