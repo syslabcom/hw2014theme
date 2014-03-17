@@ -43,6 +43,9 @@
         <link rel="stylesheet" type="text/css" href="++resource++plone.formwidget.contenttree/contenttree.css"/>
     </before>
 
+    <!-- add ga tracking code -->
+    <after css:theme="#footer" css:content="#gacode" />
+    
 
     <!-- Breadcrumbs -->
     <drop css:content="span#breadcrumbs-you-are-here" />
