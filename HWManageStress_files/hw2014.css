@@ -1455,6 +1455,7 @@ select.datetime-widget {
 /* Special formatting for the login fields, refs #9119 */
 #login-form .field #__ac_name {
     width: 400px;
+    height: 25px;
 }
 #login-form .field #__ac_password {
     width: 375px;
