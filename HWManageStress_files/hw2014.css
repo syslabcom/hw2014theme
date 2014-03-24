@@ -207,6 +207,10 @@ h1{
 .dropdown-menu li {
     border-bottom: 1px solid #ABC600;
 }
+.dropdown-menu li.currentLanguage a {
+    font-size: 110%;
+    font-weight: bold;
+}
 
 .dropdown-menu > li > a {
     padding: 5px 20px;
